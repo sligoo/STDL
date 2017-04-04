@@ -20,6 +20,7 @@ public class BlocMessages extends NLS {
   public static  String BLOC_undefined_ident;
   public static  String Bloc_not_a_type;
   public static  String Bloc_undefined_ident;
+  public static  String BLOC_already_defined;
   public static  String Bloc_expected_eof;
   public static  String Bloc_unexecpected_token;
   public static  String BLOC_not_a_variable;

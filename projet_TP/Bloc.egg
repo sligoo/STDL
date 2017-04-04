@@ -180,24 +180,24 @@ do
 end
 }
 
-Instruction -> Type identificateur affectation #inh Expression point_virgule #ast;
-#inh {
-local
-    d: Declaration;
-do
-    d := Instruction^factory.createVariableDeclaration(identificateur^txt, Type^ast, null);
-    if (Instruction^tds.contains(d.getName())) then
-        error(Bloc_unexpected_token, identificateur^txt);
-    else
-        Instruction^tds.register(d);
-    end
-end
-}
-#ast {
-do
-    Instruction^ast := Instruction^factory.createVariableDeclaration(identificateur^txt, Type^ast, Expression^ast);
-end
-}
+--Instruction -> Type identificateur affectation #inh Expression point_virgule #ast;
+--#inh {
+--local
+--    d: Declaration;
+--do
+--    d := Instruction^factory.createVariableDeclaration(identificateur^txt, Type^ast, null);
+--    if (Instruction^tds.contains(d.getName())) then
+--        error(Bloc_unexpected_token, identificateur^txt);
+--    else
+--        Instruction^tds.register(d);
+--    end
+--end
+--}
+--#ast {
+--do
+--    Instruction^ast := Instruction^factory.createVariableDeclaration(identificateur^txt, Type^ast, Expression^ast);
+--end
+--}
 
 Instruction -> constante Type identificateur affectation Valeur point_virgule #ast;
 #ast {
@@ -865,7 +865,7 @@ end
 SuiteNomEtendu ->  #ast ;
 #ast {
 do
-   SuiteNomEtendu^ast := SuiteNomEtendu^factory.createXXX();
+   SuiteNomEtendu^ast := SuiteNomEtendu^type;
 end
 }
 

@@ -276,9 +276,9 @@ public class JLEX_Bloc implements  LEX_ANALYZER  {
 		/* 42 */ YY_NO_ANCHOR,
 		/* 43 */ YY_NO_ANCHOR,
 		/* 44 */ YY_NO_ANCHOR,
-		/* 45 */ YY_NOT_ACCEPT,
+		/* 45 */ YY_NO_ANCHOR,
 		/* 46 */ YY_NO_ANCHOR,
-		/* 47 */ YY_NO_ANCHOR,
+		/* 47 */ YY_NOT_ACCEPT,
 		/* 48 */ YY_NO_ANCHOR,
 		/* 49 */ YY_NO_ANCHOR,
 		/* 50 */ YY_NO_ANCHOR,
@@ -317,16 +317,30 @@ public class JLEX_Bloc implements  LEX_ANALYZER  {
 		/* 83 */ YY_NO_ANCHOR,
 		/* 84 */ YY_NO_ANCHOR,
 		/* 85 */ YY_NO_ANCHOR,
-		/* 86 */ YY_NO_ANCHOR
+		/* 86 */ YY_NO_ANCHOR,
+		/* 87 */ YY_NO_ANCHOR,
+		/* 88 */ YY_NO_ANCHOR,
+		/* 89 */ YY_NO_ANCHOR,
+		/* 90 */ YY_NO_ANCHOR,
+		/* 91 */ YY_NO_ANCHOR,
+		/* 92 */ YY_NO_ANCHOR,
+		/* 93 */ YY_NO_ANCHOR,
+		/* 94 */ YY_NO_ANCHOR,
+		/* 95 */ YY_NO_ANCHOR,
+		/* 96 */ YY_NO_ANCHOR,
+		/* 97 */ YY_NO_ANCHOR,
+		/* 98 */ YY_NO_ANCHOR,
+		/* 99 */ YY_NO_ANCHOR,
+		/* 100 */ YY_NO_ANCHOR
 	};
 	private int yy_cmap[] = unpackFromString(1,258,
-"3:9,4,5,3:2,1,3:18,4,18,3:3,23,24,3,10,11,22,19,17,20,15,2,43:10,3,16,12,14" +",13,3:2,46:26,8,3,9,3,45,3,30,39,41,38,28,29,44,37,33,44:2,31,44,35,40,34,4" +"4,26,32,25,27,44,36,44,42,44,6,21,7,3:130,0:2")[0];
+"3:9,4,5,3:2,1,3:18,4,18,3:3,23,24,3,10,11,22,19,17,20,15,2,44:10,3,16,12,14" +",13,3:2,47:26,8,3,9,3,46,3,30,39,41,38,28,29,45,37,33,45:2,31,45,35,40,34,4" +"5,26,32,25,27,43,36,45,42,45,6,21,7,3:130,0:2")[0];
 
-	private int yy_rmap[] = unpackFromString(1,87,
-"0,1,2,3,1:7,4,5,6,1:3,7,1:4,8,9,10,1:6,11,1,11:12,12,13,14,15,16,17,18,19,2" +"0,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,4" +"5,46,11,47,48,49,50,51,52")[0];
+	private int yy_rmap[] = unpackFromString(1,101,
+"0,1,2,3,1:7,4,5,6,1:3,7,1:4,8,9,10,1:6,11,1,11:14,12,13,14,15,16,17,18,19,2" +"0,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,4" +"5,46,47,48,49,50,51,52,53,11,54,55,56,57,58,59,60,61,62,63,64")[0];
 
-	private int yy_nxt[][] = unpackFromString(53,47,
-"1,2,3,4,2:2,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,46,20,21,48,22,80:2,82," +"61,80:2,62,47,83,80,84,80:2,85,80,86,80,23,80,4,24,-1:48,2,-1:2,2:2,-1:43,4" +"5,-1:58,25,-1:46,26,-1:46,27,-1:46,28,-1:57,80,63,80:15,64,80:4,-1:43,23,-1" +":28,24:22,-1:25,80:22,-1:2,45:3,32,45:41,-1:21,29,-1:50,80:4,31,80:5,51,80:" +"11,-1:24,30,-1:47,33,80:21,-1:25,80:13,34,80:8,-1:25,35,80:21,-1:25,80:3,36" +",80:18,-1:25,80:3,37,80:18,-1:25,80:6,38,80:15,-1:25,80:3,39,80:18,-1:25,40" +",80:21,-1:25,80:3,41,80:18,-1:25,42,80:21,-1:25,43,80:21,-1:25,80:4,44,80:1" +"7,-1:25,80:5,66,80,49,80:14,-1:25,67,80:9,50,80:11,-1:25,80:2,52,80:19,-1:2" +"5,80:9,71,80:12,-1:25,80:7,53,80:14,-1:25,80:6,72,80:15,-1:25,80,73,80:20,-" +"1:25,80:8,74,80:13,-1:25,80:15,54,80:6,-1:25,80:10,76,80:11,-1:25,80:3,77,8" +"0:18,-1:25,80:7,55,80:14,-1:25,80:2,78,80:19,-1:25,80:10,56,80:11,-1:25,80:" +"6,57,80:15,-1:25,80:7,58,80:14,-1:25,80:13,79,80:8,-1:25,80:16,59,80:5,-1:2" +"5,80:3,60,80:18,-1:25,80:8,75,80:13,-1:25,80:6,65,80:15,-1:25,80,68,80:20,-" +"1:25,80:12,81,80:9,-1:25,80:15,69,80:6,-1:25,80:15,70,80:6");
+	private int yy_nxt[][] = unpackFromString(65,48,
+"1,2,3,4,2:2,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,48,20,21,50,22,89:2,94," +"65,95,89,66,49,96,97,98,89:2,99,89,100,89:2,23,89,4,24,-1:49,2,-1:2,2:2,-1:" +"44,47,-1:59,25,-1:47,26,-1:47,27,-1:47,28,-1:58,89,67,89:15,68,89:5,-1:44,2" +"3,-1:28,24:23,-1:25,89:23,-1:2,47:3,32,47:42,-1:21,29,-1:51,89:4,31,89:5,53" +",89:12,-1:24,30,-1:48,33,89:22,-1:25,89:13,34,89:9,-1:25,35,89:22,-1:25,89:" +"3,36,89:19,-1:25,89:3,37,89:19,-1:25,89:6,38,89:16,-1:25,89:3,39,89:19,-1:2" +"5,40,89:22,-1:25,89:3,41,89:19,-1:25,42,89:22,-1:25,43,89:22,-1:25,89:4,44," +"89:18,-1:25,89:3,45,89:19,-1:25,89:2,46,89:20,-1:25,89:5,70,89,51,89:15,-1:" +"25,90,89:9,52,89:12,-1:25,89:2,54,89:20,-1:25,89:9,76,89:13,-1:25,89:7,55,8" +"9:15,-1:25,89:6,77,89:16,-1:25,89,93,89:21,-1:25,89:8,78,89:14,-1:25,89:2,7" +"9,89:20,-1:25,89:15,56,89:7,-1:25,89:10,81,89:12,-1:25,89:3,82,89:19,-1:25," +"89:7,57,89:15,-1:25,89:10,58,89:12,-1:25,89:18,85,89:4,-1:25,89:6,59,89:16," +"-1:25,89:7,60,89:15,-1:25,89:13,86,89:9,-1:25,89:7,87,89:15,-1:25,89:16,61," +"89:6,-1:25,89:3,88,89:19,-1:25,89:3,62,89:19,-1:25,89:7,63,89:15,-1:25,89:5" +",64,89:17,-1:25,89,92,89:21,-1:25,89:8,80,89:14,-1:25,89:2,84,89:20,-1:25,8" +"9:3,83,89:19,-1:25,89:6,69,89:16,-1:25,89:13,71,89:9,-1:25,89,72,89:21,-1:2" +"5,89:15,73,89:7,-1:25,89:12,91,89:10,-1:25,89:15,74,89:7,-1:25,89:15,75,89:" +"7");
 
 	public Yytoken yylex ()
 		throws java.io.IOException {
@@ -726,17 +740,17 @@ case -45:
 					
 	break;
 					
-case 46:
+case 45:
 					
-	{return new Yytoken(LEX_Bloc.token_autre, yytext(), yyline, yychar, yychar+1);}
+	{return new Yytoken(LEX_Bloc.token_adresse, yytext(), yyline, yychar, yychar+1);}
 					
 case -46:
 					
 	break;
 					
-case 47:
+case 46:
 					
-	{return new Yytoken(LEX_Bloc.token_identificateur, yytext(), yyline, yychar, yychar+1);}
+	{return new Yytoken(LEX_Bloc.token_nouveau, yytext(), yyline, yychar, yychar+1);}
 					
 case -47:
 					
@@ -760,7 +774,7 @@ case -49:
 					
 case 50:
 					
-	{return new Yytoken(LEX_Bloc.token_identificateur, yytext(), yyline, yychar, yychar+1);}
+	{return new Yytoken(LEX_Bloc.token_autre, yytext(), yyline, yychar, yychar+1);}
 					
 case -50:
 					
@@ -1051,6 +1065,118 @@ case 86:
 	{return new Yytoken(LEX_Bloc.token_identificateur, yytext(), yyline, yychar, yychar+1);}
 					
 case -86:
+					
+	break;
+					
+case 87:
+					
+	{return new Yytoken(LEX_Bloc.token_identificateur, yytext(), yyline, yychar, yychar+1);}
+					
+case -87:
+					
+	break;
+					
+case 88:
+					
+	{return new Yytoken(LEX_Bloc.token_identificateur, yytext(), yyline, yychar, yychar+1);}
+					
+case -88:
+					
+	break;
+					
+case 89:
+					
+	{return new Yytoken(LEX_Bloc.token_identificateur, yytext(), yyline, yychar, yychar+1);}
+					
+case -89:
+					
+	break;
+					
+case 90:
+					
+	{return new Yytoken(LEX_Bloc.token_identificateur, yytext(), yyline, yychar, yychar+1);}
+					
+case -90:
+					
+	break;
+					
+case 91:
+					
+	{return new Yytoken(LEX_Bloc.token_identificateur, yytext(), yyline, yychar, yychar+1);}
+					
+case -91:
+					
+	break;
+					
+case 92:
+					
+	{return new Yytoken(LEX_Bloc.token_identificateur, yytext(), yyline, yychar, yychar+1);}
+					
+case -92:
+					
+	break;
+					
+case 93:
+					
+	{return new Yytoken(LEX_Bloc.token_identificateur, yytext(), yyline, yychar, yychar+1);}
+					
+case -93:
+					
+	break;
+					
+case 94:
+					
+	{return new Yytoken(LEX_Bloc.token_identificateur, yytext(), yyline, yychar, yychar+1);}
+					
+case -94:
+					
+	break;
+					
+case 95:
+					
+	{return new Yytoken(LEX_Bloc.token_identificateur, yytext(), yyline, yychar, yychar+1);}
+					
+case -95:
+					
+	break;
+					
+case 96:
+					
+	{return new Yytoken(LEX_Bloc.token_identificateur, yytext(), yyline, yychar, yychar+1);}
+					
+case -96:
+					
+	break;
+					
+case 97:
+					
+	{return new Yytoken(LEX_Bloc.token_identificateur, yytext(), yyline, yychar, yychar+1);}
+					
+case -97:
+					
+	break;
+					
+case 98:
+					
+	{return new Yytoken(LEX_Bloc.token_identificateur, yytext(), yyline, yychar, yychar+1);}
+					
+case -98:
+					
+	break;
+					
+case 99:
+					
+	{return new Yytoken(LEX_Bloc.token_identificateur, yytext(), yyline, yychar, yychar+1);}
+					
+case -99:
+					
+	break;
+					
+case 100:
+					
+	{return new Yytoken(LEX_Bloc.token_identificateur, yytext(), yyline, yychar, yychar+1);}
+					
+case -100:
 					
 	break;
 					default:

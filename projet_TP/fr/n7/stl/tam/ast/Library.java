@@ -5,7 +5,6 @@ package fr.n7.stl.tam.ast;
 
 import java.util.LinkedList;
 import java.util.List;
-import java.util.Optional;
 
 /**
  * Atomic operators provided by the TAM virtual machine for basic types : Boolean, Character, Integer, Memory and String.
@@ -246,7 +245,7 @@ public enum Library implements TAMInstruction {
 		for (String _label : this.prefixes) {
 			_result += _label + ":\n";
 		}
-		_result += " SUBR " + this.name();
+		_result += " SUBR " + this.name() + "\n";
 		for (String _label : this.suffixes) {
 			_result += _label + ":\n";
 		}

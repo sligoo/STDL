@@ -21,41 +21,43 @@ public class LEX_Bloc extends LEXICAL4  {
  public static final int token_soustraction = 6 ;
  public static final int token_afficher = 7 ;
  public static final int token_faux = 8 ;
- public static final int token_multiplication = 9 ;
- public static final int token_type_int = 10 ;
- public static final int token_identificateur = 11 ;
- public static final int token_entier = 12 ;
- public static final int token_type_bool = 13 ;
- public static final int token_parenthese_fermante = 14 ;
- public static final int token_si = 15 ;
- public static final int token_superieur = 16 ;
- public static final int token_vrai = 17 ;
- public static final int token_sinon = 18 ;
- public static final int token_superieur_egal = 19 ;
- public static final int token_second = 20 ;
- public static final int token_ou = 21 ;
- public static final int token_negation = 22 ;
- public static final int token_inferieur = 23 ;
- public static final int token_affectation = 24 ;
- public static final int token_point_virgule = 25 ;
- public static final int token_accolade_fermante = 26 ;
- public static final int token_point = 27 ;
- public static final int token_crochet_fermant = 28 ;
- public static final int token_virgule = 29 ;
- public static final int token_parenthese_ouvrante = 30 ;
- public static final int token_separateur = 31 ;
- public static final int token_addition = 32 ;
- public static final int token_et = 33 ;
- public static final int token_enregistrement = 34 ;
- public static final int token_premier = 35 ;
- public static final int token_constante = 36 ;
- public static final int token_commentaire = 37 ;
- public static final int token_crochet_ouvrant = 38 ;
- public static final int token_inferieur_egal = 39 ;
- public static final int token_typedef = 40 ;
- public static final int token_division = 41 ;
- public static final int token_modulo = 42 ;
-  static final int token_autre = 43 ;
+ public static final int token_adresse = 9 ;
+ public static final int token_multiplication = 10 ;
+ public static final int token_type_int = 11 ;
+ public static final int token_identificateur = 12 ;
+ public static final int token_entier = 13 ;
+ public static final int token_type_bool = 14 ;
+ public static final int token_parenthese_fermante = 15 ;
+ public static final int token_si = 16 ;
+ public static final int token_superieur = 17 ;
+ public static final int token_nouveau = 18 ;
+ public static final int token_vrai = 19 ;
+ public static final int token_sinon = 20 ;
+ public static final int token_superieur_egal = 21 ;
+ public static final int token_second = 22 ;
+ public static final int token_ou = 23 ;
+ public static final int token_negation = 24 ;
+ public static final int token_inferieur = 25 ;
+ public static final int token_affectation = 26 ;
+ public static final int token_point_virgule = 27 ;
+ public static final int token_accolade_fermante = 28 ;
+ public static final int token_point = 29 ;
+ public static final int token_crochet_fermant = 30 ;
+ public static final int token_virgule = 31 ;
+ public static final int token_parenthese_ouvrante = 32 ;
+ public static final int token_separateur = 33 ;
+ public static final int token_addition = 34 ;
+ public static final int token_et = 35 ;
+ public static final int token_enregistrement = 36 ;
+ public static final int token_premier = 37 ;
+ public static final int token_constante = 38 ;
+ public static final int token_commentaire = 39 ;
+ public static final int token_inferieur_egal = 40 ;
+ public static final int token_crochet_ouvrant = 41 ;
+ public static final int token_typedef = 42 ;
+ public static final int token_division = 43 ;
+ public static final int token_modulo = 44 ;
+  static final int token_autre = 45 ;
   public static final String[][] tokenImages = {
 	{"<EOF>"} ,{"tant_que"},
 {"accolade_ouvrante"},
@@ -65,6 +67,7 @@ public class LEX_Bloc extends LEXICAL4  {
 {"soustraction"},
 {"afficher"},
 {"faux"},
+{"adresse"},
 {"multiplication"},
 {"type_int"},
     {"identificateur"} ,
@@ -73,6 +76,7 @@ public class LEX_Bloc extends LEXICAL4  {
 {"parenthese_fermante"},
 {"si"},
 {"superieur"},
+{"nouveau"},
 {"vrai"},
 {"sinon"},
 {"superieur_egal"},
@@ -94,8 +98,8 @@ public class LEX_Bloc extends LEXICAL4  {
 {"premier"},
 {"constante"},
     {"commentaire"} ,
-{"crochet_ouvrant"},
 {"inferieur_egal"},
+{"crochet_ouvrant"},
 {"typedef"},
 {"division"},
 {"modulo"},
