@@ -6,6 +6,7 @@ import fr.n7.stl.tam.ast.Fragment;
 import fr.n7.stl.tam.ast.TAMFactory;
 
 /**
+ * Project: projet_TP
  * Created by Sacha on 18/04/17.
  */
 public class PointerAllocationImpl implements PointerAllocation {

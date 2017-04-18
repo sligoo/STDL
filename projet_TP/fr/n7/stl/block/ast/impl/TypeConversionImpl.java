@@ -1,6 +1,3 @@
-/**
- * 
- */
 package fr.n7.stl.block.ast.impl;
 
 import fr.n7.stl.block.ast.AtomicType;
@@ -29,14 +26,11 @@ public class TypeConversionImpl implements Expression {
 	 */
 	@Override
 	public Type getType() {
-		throw new SemanticsUndefinedException("Semantics getType undefined in TypeConversionImpl.");
-		// <REMOVE>
-		// if (this.target.getType().compatibleWith(type)) {
-		//	 return this.type;
-		// } else {
-		// 	return AtomicType.ErrorType;
-		// }
-		// </REMOVE>
+		if (this.target.getType().compatibleWith(type)) {
+			 return this.type;
+		} else {
+		 	return AtomicType.ErrorType;
+		}
 	}
 
 	/* (non-Javadoc)

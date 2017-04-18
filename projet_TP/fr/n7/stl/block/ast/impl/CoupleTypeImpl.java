@@ -1,6 +1,3 @@
-/**
- * 
- */
 package fr.n7.stl.block.ast.impl;
 
 import fr.n7.stl.block.ast.AtomicType;
@@ -32,26 +29,19 @@ public class CoupleTypeImpl implements CoupleType {
 	 */
 	@Override
 	public boolean equalsTo(Type _other) {
-		if (_other instanceof CoupleType) {
-			return this.first.equalsTo(((CoupleTypeImpl) _other).first)
-					&& this.second.equalsTo(((CoupleTypeImpl) _other).second);
-		} else {
-			return false;
-		}
-	}
+        return _other instanceof CoupleType && this.first.equalsTo(((CoupleTypeImpl)
+                _other).first) && this.second.equalsTo(((CoupleTypeImpl) _other).second);
+    }
 
 	/* (non-Javadoc)
 	 * @see fr.n7.block.ast.Type#compatibleWith(fr.n7.block.ast.Type)
 	 */
 	@Override
 	public boolean compatibleWith(Type _other) {
-		if (_other instanceof CoupleType) {
-			return this.first.compatibleWith(((CoupleTypeImpl) _other).first)
-					&& this.second.compatibleWith(((CoupleTypeImpl) _other).second);
-		} else {
-			return false;
-		}
-	}
+        return _other instanceof CoupleType && this.first.compatibleWith(((CoupleTypeImpl)
+                _other).first) && this.second.compatibleWith(((CoupleTypeImpl) _other)
+                .second);
+    }
 
 	/* (non-Javadoc)
 	 * @see fr.n7.block.ast.Type#merge(fr.n7.block.ast.Type)

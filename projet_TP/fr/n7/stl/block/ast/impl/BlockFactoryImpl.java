@@ -1,6 +1,3 @@
-/**
- * 
- */
 package fr.n7.stl.block.ast.impl;
 
 import fr.n7.stl.block.ast.Assignable;
@@ -391,7 +388,7 @@ public class BlockFactoryImpl implements BlockFactory {
 
 	@Override
 	public Expression createArrayAllocation(Type att_type, Expression att_ast) {
-		return new ArrayAllocationImpl(att_type, att_ast);
+		return new ArrayAllocationImpl(att_type);
 	}
 
 	@Override

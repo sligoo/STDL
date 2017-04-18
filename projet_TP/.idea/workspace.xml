@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d9a04cb-f532-4016-a81b-7c8e157049e1" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/tp-06-type/A_FAIRE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/tp-06-type/Bloc.egg" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/tp-06-type/doc/allclasses-frame.html" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/tp-06-type/doc/allclasses-noframe.html" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/tp-06-type/doc/constant-values.html" afterPath="" />
@@ -129,62 +131,145 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/tp-06-type/egg/S_Terme_Bloc.class" afterPath="$PROJECT_DIR$/out/production/tp-06-type/egg/S_Terme_Bloc.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/tp-06-type/egg/S_Type_Bloc.class" afterPath="$PROJECT_DIR$/out/production/tp-06-type/egg/S_Type_Bloc.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/tp-06-type/egg/S_Valeur_Bloc.class" afterPath="$PROJECT_DIR$/out/production/tp-06-type/egg/S_Valeur_Bloc.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/block/ast/AtomicType$1.class" afterPath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/block/ast/AtomicType$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/block/ast/AtomicType.class" afterPath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/block/ast/AtomicType.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/block/ast/BinaryOperator$1.class" afterPath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/block/ast/BinaryOperator$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/block/ast/BinaryOperator.class" afterPath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/block/ast/BinaryOperator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/block/ast/BooleanValue$1.class" afterPath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/block/ast/BooleanValue$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/block/ast/BooleanValue.class" afterPath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/block/ast/BooleanValue.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/block/ast/ExpressionFactory.class" afterPath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/block/ast/ExpressionFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/block/ast/ForbiddenDeclarationException.class" afterPath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/block/ast/ForbiddenDeclarationException.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/block/ast/UnaryOperator$1.class" afterPath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/block/ast/UnaryOperator$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/block/ast/UnaryOperator.class" afterPath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/block/ast/UnaryOperator.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/block/ast/impl/ArrayAccessImpl.class" afterPath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/block/ast/impl/ArrayAccessImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/block/ast/impl/ArrayAssignmentImpl.class" afterPath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/block/ast/impl/ArrayAssignmentImpl.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/block/ast/impl/ArrayTypeImpl.class" afterPath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/block/ast/impl/ArrayTypeImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/block/ast/impl/AssignmentImpl.class" afterPath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/block/ast/impl/AssignmentImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/block/ast/impl/BinaryExpressionImpl$1.class" afterPath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/block/ast/impl/BinaryExpressionImpl$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/block/ast/impl/BinaryExpressionImpl.class" afterPath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/block/ast/impl/BinaryExpressionImpl.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/block/ast/impl/BlockFactoryImpl.class" afterPath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/block/ast/impl/BlockFactoryImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/block/ast/impl/BlockImpl.class" afterPath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/block/ast/impl/BlockImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/block/ast/impl/ConditionalImpl.class" afterPath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/block/ast/impl/ConditionalImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/block/ast/impl/ConstantDeclarationImpl.class" afterPath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/block/ast/impl/ConstantDeclarationImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/block/ast/impl/CoupleImpl.class" afterPath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/block/ast/impl/CoupleImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/block/ast/impl/CoupleTypeImpl.class" afterPath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/block/ast/impl/CoupleTypeImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/block/ast/impl/FieldAccessImpl.class" afterPath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/block/ast/impl/FieldAccessImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/block/ast/impl/FieldAssignmentImpl.class" afterPath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/block/ast/impl/FieldAssignmentImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/block/ast/impl/FieldDeclarationImpl.class" afterPath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/block/ast/impl/FieldDeclarationImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/block/ast/impl/FunctionCallImpl.class" afterPath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/block/ast/impl/FunctionCallImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/block/ast/impl/FunctionTypeImpl.class" afterPath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/block/ast/impl/FunctionTypeImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/block/ast/impl/IntegerValueImpl.class" afterPath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/block/ast/impl/IntegerValueImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/block/ast/impl/NamedTypeImpl.class" afterPath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/block/ast/impl/NamedTypeImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/block/ast/impl/PointerAccessImpl.class" afterPath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/block/ast/impl/PointerAccessImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/block/ast/impl/PointerAssignmentImpl.class" afterPath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/block/ast/impl/PointerAssignmentImpl.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/block/ast/impl/PointerTypeImpl.class" afterPath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/block/ast/impl/PointerTypeImpl.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/block/ast/impl/PrinterImpl.class" afterPath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/block/ast/impl/PrinterImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/block/ast/impl/RecordTypeImpl.class" afterPath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/block/ast/impl/RecordTypeImpl.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/block/ast/impl/RepetitionImpl.class" afterPath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/block/ast/impl/RepetitionImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/block/ast/impl/SemanticsUndefinedException.class" afterPath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/block/ast/impl/SemanticsUndefinedException.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/block/ast/impl/SequenceImpl.class" afterPath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/block/ast/impl/SequenceImpl.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/block/ast/impl/SequenceTypeImpl.class" afterPath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/block/ast/impl/SequenceTypeImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/block/ast/impl/TypeConversionImpl.class" afterPath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/block/ast/impl/TypeConversionImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/block/ast/impl/UnaryExpressionImpl$1.class" afterPath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/block/ast/impl/UnaryExpressionImpl$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/block/ast/impl/UnaryExpressionImpl.class" afterPath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/block/ast/impl/UnaryExpressionImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/block/ast/impl/VariableAssignmentImpl.class" afterPath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/block/ast/impl/VariableAssignmentImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/block/ast/impl/VariableDeclarationImpl.class" afterPath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/block/ast/impl/VariableDeclarationImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/block/ast/impl/VariableUseImpl.class" afterPath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/block/ast/impl/VariableUseImpl.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/tam/ast/Fragment.class" afterPath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/tam/ast/Fragment.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/tam/ast/Library.class" afterPath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/tam/ast/Library.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/tam/ast/Register.class" afterPath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/tam/ast/Register.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/tam/ast/TAMFactory$1.class" afterPath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/tam/ast/TAMFactory$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/tam/ast/TAMFactory.class" afterPath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/tam/ast/TAMFactory.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/tam/ast/TAMInstruction.class" afterPath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/tam/ast/TAMInstruction.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/tam/ast/impl/FragmentImpl.class" afterPath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/tam/ast/impl/FragmentImpl.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/tam/ast/impl/TAMFactoryImpl.class" afterPath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/tam/ast/impl/TAMFactoryImpl.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/tam/ast/impl/TAMInstructionImpl.class" afterPath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/tam/ast/impl/TAMInstructionImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/tam/ast/impl/TAMInstructionKind.class" afterPath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/tam/ast/impl/TAMInstructionKind.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/util/Logger.class" afterPath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/util/Logger.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/util/SymbolTable.class" afterPath="$PROJECT_DIR$/out/production/tp-06-type/fr/n7/stl/util/SymbolTable.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/xtextAutoBuilderState.xml" afterPath="$PROJECT_DIR$/.idea/xtextAutoBuilderState.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bloc.egg" afterPath="$PROJECT_DIR$/Bloc.egg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/egg/JLEX_Bloc.java" afterPath="$PROJECT_DIR$/egg/JLEX_Bloc.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/egg/S_Acces_Bloc.java" afterPath="$PROJECT_DIR$/egg/S_Acces_Bloc.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/egg/S_Additif_Bloc.java" afterPath="$PROJECT_DIR$/egg/S_Additif_Bloc.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/egg/S_Affectable_Bloc.java" afterPath="$PROJECT_DIR$/egg/S_Affectable_Bloc.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/egg/S_Champ_Bloc.java" afterPath="$PROJECT_DIR$/egg/S_Champ_Bloc.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/egg/S_Champs_Bloc.java" afterPath="$PROJECT_DIR$/egg/S_Champs_Bloc.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/egg/S_Comparatif_Bloc.java" afterPath="$PROJECT_DIR$/egg/S_Comparatif_Bloc.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/egg/S_Condition_Bloc.java" afterPath="$PROJECT_DIR$/egg/S_Condition_Bloc.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/egg/S_Expression_Bloc.java" afterPath="$PROJECT_DIR$/egg/S_Expression_Bloc.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/egg/S_Expressions_Bloc.java" afterPath="$PROJECT_DIR$/egg/S_Expressions_Bloc.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/egg/S_Facteur_Bloc.java" afterPath="$PROJECT_DIR$/egg/S_Facteur_Bloc.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/egg/S_Instruction_Bloc.java" afterPath="$PROJECT_DIR$/egg/S_Instruction_Bloc.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/egg/S_Multiplicatif_Bloc.java" afterPath="$PROJECT_DIR$/egg/S_Multiplicatif_Bloc.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/egg/S_NomEtendu_Bloc.java" afterPath="$PROJECT_DIR$/egg/S_NomEtendu_Bloc.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/egg/S_SuiteAffectable_Bloc.java" afterPath="$PROJECT_DIR$/egg/S_SuiteAffectable_Bloc.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/egg/S_SuiteCondition_Bloc.java" afterPath="$PROJECT_DIR$/egg/S_SuiteCondition_Bloc.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/egg/S_SuiteConditionnelle_Bloc.java" afterPath="$PROJECT_DIR$/egg/S_SuiteConditionnelle_Bloc.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/egg/S_SuiteExpressions_Bloc.java" afterPath="$PROJECT_DIR$/egg/S_SuiteExpressions_Bloc.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/egg/S_SuiteFacteur_Bloc.java" afterPath="$PROJECT_DIR$/egg/S_SuiteFacteur_Bloc.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/egg/S_SuiteNomEtendu_Bloc.java" afterPath="$PROJECT_DIR$/egg/S_SuiteNomEtendu_Bloc.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/egg/S_SuiteNouveau_Bloc.java" afterPath="$PROJECT_DIR$/egg/S_SuiteNouveau_Bloc.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/egg/S_SuiteTerme_Bloc.java" afterPath="$PROJECT_DIR$/egg/S_SuiteTerme_Bloc.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/egg/S_Terme_Bloc.java" afterPath="$PROJECT_DIR$/egg/S_Terme_Bloc.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/egg/S_Type_Bloc.java" afterPath="$PROJECT_DIR$/egg/S_Type_Bloc.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/egg/S_Valeur_Bloc.java" afterPath="$PROJECT_DIR$/egg/S_Valeur_Bloc.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exemples/test05.bloc" afterPath="$PROJECT_DIR$/exemples/test05.bloc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fr/n7/stl/block/ast/AddressAccess.java" afterPath="$PROJECT_DIR$/fr/n7/stl/block/ast/AddressAccess.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fr/n7/stl/block/ast/ArrayAllocation.java" afterPath="$PROJECT_DIR$/fr/n7/stl/block/ast/ArrayAllocation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fr/n7/stl/block/ast/ArrayType.java" afterPath="$PROJECT_DIR$/fr/n7/stl/block/ast/ArrayType.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fr/n7/stl/block/ast/AtomicType.java" afterPath="$PROJECT_DIR$/fr/n7/stl/block/ast/AtomicType.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fr/n7/stl/block/ast/BinaryOperator.java" afterPath="$PROJECT_DIR$/fr/n7/stl/block/ast/BinaryOperator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fr/n7/stl/block/ast/Block.java" afterPath="$PROJECT_DIR$/fr/n7/stl/block/ast/Block.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fr/n7/stl/block/ast/BlockFactory.java" afterPath="$PROJECT_DIR$/fr/n7/stl/block/ast/BlockFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fr/n7/stl/block/ast/BooleanValue.java" afterPath="$PROJECT_DIR$/fr/n7/stl/block/ast/BooleanValue.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fr/n7/stl/block/ast/ConstantDeclaration.java" afterPath="$PROJECT_DIR$/fr/n7/stl/block/ast/ConstantDeclaration.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fr/n7/stl/block/ast/CoupleType.java" afterPath="$PROJECT_DIR$/fr/n7/stl/block/ast/CoupleType.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fr/n7/stl/block/ast/Declaration.java" afterPath="$PROJECT_DIR$/fr/n7/stl/block/ast/Declaration.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fr/n7/stl/block/ast/Expression.java" afterPath="$PROJECT_DIR$/fr/n7/stl/block/ast/Expression.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fr/n7/stl/block/ast/ExpressionFactory.java" afterPath="$PROJECT_DIR$/fr/n7/stl/block/ast/ExpressionFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fr/n7/stl/block/ast/FieldDeclaration.java" afterPath="$PROJECT_DIR$/fr/n7/stl/block/ast/FieldDeclaration.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fr/n7/stl/block/ast/ForbiddenDeclarationException.java" afterPath="$PROJECT_DIR$/fr/n7/stl/block/ast/ForbiddenDeclarationException.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fr/n7/stl/block/ast/FunctionCall.java" afterPath="$PROJECT_DIR$/fr/n7/stl/block/ast/FunctionCall.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fr/n7/stl/block/ast/HierarchicalScope.java" afterPath="$PROJECT_DIR$/fr/n7/stl/block/ast/HierarchicalScope.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fr/n7/stl/block/ast/Instruction.java" afterPath="$PROJECT_DIR$/fr/n7/stl/block/ast/Instruction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fr/n7/stl/block/ast/InstructionFactory.java" afterPath="$PROJECT_DIR$/fr/n7/stl/block/ast/InstructionFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fr/n7/stl/block/ast/IntegerValue.java" afterPath="$PROJECT_DIR$/fr/n7/stl/block/ast/IntegerValue.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fr/n7/stl/block/ast/PointerAllocation.java" afterPath="$PROJECT_DIR$/fr/n7/stl/block/ast/PointerAllocation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fr/n7/stl/block/ast/PointerType.java" afterPath="$PROJECT_DIR$/fr/n7/stl/block/ast/PointerType.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fr/n7/stl/block/ast/RecordType.java" afterPath="$PROJECT_DIR$/fr/n7/stl/block/ast/RecordType.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fr/n7/stl/block/ast/Scope.java" afterPath="$PROJECT_DIR$/fr/n7/stl/block/ast/Scope.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fr/n7/stl/block/ast/Sequence.java" afterPath="$PROJECT_DIR$/fr/n7/stl/block/ast/Sequence.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fr/n7/stl/block/ast/Type.java" afterPath="$PROJECT_DIR$/fr/n7/stl/block/ast/Type.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fr/n7/stl/block/ast/TypeDeclaration.java" afterPath="$PROJECT_DIR$/fr/n7/stl/block/ast/TypeDeclaration.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fr/n7/stl/block/ast/TypeFactory.java" afterPath="$PROJECT_DIR$/fr/n7/stl/block/ast/TypeFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fr/n7/stl/block/ast/UnaryOperator.java" afterPath="$PROJECT_DIR$/fr/n7/stl/block/ast/UnaryOperator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fr/n7/stl/block/ast/Value.java" afterPath="$PROJECT_DIR$/fr/n7/stl/block/ast/Value.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fr/n7/stl/block/ast/VariableDeclaration.java" afterPath="$PROJECT_DIR$/fr/n7/stl/block/ast/VariableDeclaration.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fr/n7/stl/block/ast/impl/AddressAccessImpl.java" afterPath="$PROJECT_DIR$/fr/n7/stl/block/ast/impl/AddressAccessImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fr/n7/stl/block/ast/impl/AddressTypeImpl.java" afterPath="$PROJECT_DIR$/fr/n7/stl/block/ast/impl/AddressTypeImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fr/n7/stl/block/ast/impl/ArrayAccessImpl.java" afterPath="$PROJECT_DIR$/fr/n7/stl/block/ast/impl/ArrayAccessImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fr/n7/stl/block/ast/impl/ArrayAllocationImpl.java" afterPath="$PROJECT_DIR$/fr/n7/stl/block/ast/impl/ArrayAllocationImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fr/n7/stl/block/ast/impl/ArrayAssignmentImpl.java" afterPath="$PROJECT_DIR$/fr/n7/stl/block/ast/impl/ArrayAssignmentImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fr/n7/stl/block/ast/impl/ArrayTypeImpl.java" afterPath="$PROJECT_DIR$/fr/n7/stl/block/ast/impl/ArrayTypeImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fr/n7/stl/block/ast/impl/AssignmentImpl.java" afterPath="$PROJECT_DIR$/fr/n7/stl/block/ast/impl/AssignmentImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fr/n7/stl/block/ast/impl/BinaryExpressionImpl.java" afterPath="$PROJECT_DIR$/fr/n7/stl/block/ast/impl/BinaryExpressionImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fr/n7/stl/block/ast/impl/BlockFactoryImpl.java" afterPath="$PROJECT_DIR$/fr/n7/stl/block/ast/impl/BlockFactoryImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fr/n7/stl/block/ast/impl/BlockImpl.java" afterPath="$PROJECT_DIR$/fr/n7/stl/block/ast/impl/BlockImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fr/n7/stl/block/ast/impl/ConditionalImpl.java" afterPath="$PROJECT_DIR$/fr/n7/stl/block/ast/impl/ConditionalImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fr/n7/stl/block/ast/impl/ConstantDeclarationImpl.java" afterPath="$PROJECT_DIR$/fr/n7/stl/block/ast/impl/ConstantDeclarationImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fr/n7/stl/block/ast/impl/CoupleImpl.java" afterPath="$PROJECT_DIR$/fr/n7/stl/block/ast/impl/CoupleImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fr/n7/stl/block/ast/impl/CoupleTypeImpl.java" afterPath="$PROJECT_DIR$/fr/n7/stl/block/ast/impl/CoupleTypeImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fr/n7/stl/block/ast/impl/FieldAccessImpl.java" afterPath="$PROJECT_DIR$/fr/n7/stl/block/ast/impl/FieldAccessImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fr/n7/stl/block/ast/impl/FieldAssignmentImpl.java" afterPath="$PROJECT_DIR$/fr/n7/stl/block/ast/impl/FieldAssignmentImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fr/n7/stl/block/ast/impl/FieldDeclarationImpl.java" afterPath="$PROJECT_DIR$/fr/n7/stl/block/ast/impl/FieldDeclarationImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fr/n7/stl/block/ast/impl/FunctionCallImpl.java" afterPath="$PROJECT_DIR$/fr/n7/stl/block/ast/impl/FunctionCallImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fr/n7/stl/block/ast/impl/FunctionTypeImpl.java" afterPath="$PROJECT_DIR$/fr/n7/stl/block/ast/impl/FunctionTypeImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fr/n7/stl/block/ast/impl/IntegerValueImpl.java" afterPath="$PROJECT_DIR$/fr/n7/stl/block/ast/impl/IntegerValueImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fr/n7/stl/block/ast/impl/NamedTypeImpl.java" afterPath="$PROJECT_DIR$/fr/n7/stl/block/ast/impl/NamedTypeImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fr/n7/stl/block/ast/impl/PointerAccessImpl.java" afterPath="$PROJECT_DIR$/fr/n7/stl/block/ast/impl/PointerAccessImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fr/n7/stl/block/ast/impl/PointerAllocationImpl.java" afterPath="$PROJECT_DIR$/fr/n7/stl/block/ast/impl/PointerAllocationImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fr/n7/stl/block/ast/impl/PointerAssignmentImpl.java" afterPath="$PROJECT_DIR$/fr/n7/stl/block/ast/impl/PointerAssignmentImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fr/n7/stl/block/ast/impl/PointerTypeImpl.java" afterPath="$PROJECT_DIR$/fr/n7/stl/block/ast/impl/PointerTypeImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fr/n7/stl/block/ast/impl/PrinterImpl.java" afterPath="$PROJECT_DIR$/fr/n7/stl/block/ast/impl/PrinterImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fr/n7/stl/block/ast/impl/RecordTypeImpl.java" afterPath="$PROJECT_DIR$/fr/n7/stl/block/ast/impl/RecordTypeImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fr/n7/stl/block/ast/impl/RepetitionImpl.java" afterPath="$PROJECT_DIR$/fr/n7/stl/block/ast/impl/RepetitionImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fr/n7/stl/block/ast/impl/SemanticsUndefinedException.java" afterPath="$PROJECT_DIR$/fr/n7/stl/block/ast/impl/SemanticsUndefinedException.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fr/n7/stl/block/ast/impl/SequenceImpl.java" afterPath="$PROJECT_DIR$/fr/n7/stl/block/ast/impl/SequenceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fr/n7/stl/block/ast/impl/SequenceTypeImpl.java" afterPath="$PROJECT_DIR$/fr/n7/stl/block/ast/impl/SequenceTypeImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fr/n7/stl/block/ast/impl/TypeConversionImpl.java" afterPath="$PROJECT_DIR$/fr/n7/stl/block/ast/impl/TypeConversionImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fr/n7/stl/block/ast/impl/UnaryExpressionImpl.java" afterPath="$PROJECT_DIR$/fr/n7/stl/block/ast/impl/UnaryExpressionImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fr/n7/stl/block/ast/impl/VariableAssignmentImpl.java" afterPath="$PROJECT_DIR$/fr/n7/stl/block/ast/impl/VariableAssignmentImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fr/n7/stl/block/ast/impl/VariableDeclarationImpl.java" afterPath="$PROJECT_DIR$/fr/n7/stl/block/ast/impl/VariableDeclarationImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fr/n7/stl/block/ast/impl/VariableUseImpl.java" afterPath="$PROJECT_DIR$/fr/n7/stl/block/ast/impl/VariableUseImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fr/n7/stl/tam/ast/Fragment.java" afterPath="$PROJECT_DIR$/fr/n7/stl/tam/ast/Fragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fr/n7/stl/tam/ast/Library.java" afterPath="$PROJECT_DIR$/fr/n7/stl/tam/ast/Library.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fr/n7/stl/tam/ast/Register.java" afterPath="$PROJECT_DIR$/fr/n7/stl/tam/ast/Register.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fr/n7/stl/tam/ast/TAMFactory.java" afterPath="$PROJECT_DIR$/fr/n7/stl/tam/ast/TAMFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fr/n7/stl/tam/ast/TAMInstruction.java" afterPath="$PROJECT_DIR$/fr/n7/stl/tam/ast/TAMInstruction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fr/n7/stl/tam/ast/impl/FragmentImpl.java" afterPath="$PROJECT_DIR$/fr/n7/stl/tam/ast/impl/FragmentImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fr/n7/stl/tam/ast/impl/TAMFactoryImpl.java" afterPath="$PROJECT_DIR$/fr/n7/stl/tam/ast/impl/TAMFactoryImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fr/n7/stl/tam/ast/impl/TAMInstructionImpl.java" afterPath="$PROJECT_DIR$/fr/n7/stl/tam/ast/impl/TAMInstructionImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fr/n7/stl/tam/ast/impl/TAMInstructionKind.java" afterPath="$PROJECT_DIR$/fr/n7/stl/tam/ast/impl/TAMInstructionKind.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fr/n7/stl/util/Logger.java" afterPath="$PROJECT_DIR$/fr/n7/stl/util/Logger.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fr/n7/stl/util/SymbolTable.java" afterPath="$PROJECT_DIR$/fr/n7/stl/util/SymbolTable.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/tp-06-type/.idea/misc.xml" afterPath="$PROJECT_DIR$/out/production/tp-06-type/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/tp-06-type/.idea/workspace.xml" afterPath="$PROJECT_DIR$/out/production/tp-06-type/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/tp-06-type/.idea/xtextAutoBuilderState.xml" afterPath="$PROJECT_DIR$/out/production/tp-06-type/.idea/xtextAutoBuilderState.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/tp-06-type/Bloc.egg" afterPath="$PROJECT_DIR$/out/production/tp-06-type/Bloc.egg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/tp-06-type/Bloc.properties" afterPath="$PROJECT_DIR$/out/production/tp-06-type/Bloc.properties" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -201,110 +286,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Bloc.egg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Bloc.egg">
+      <file leaf-file-name="Library.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/fr/n7/stl/tam/ast/Library.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="34" column="41" lean-forward="false" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ArrayAccessImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fr/n7/stl/block/ast/impl/ArrayAccessImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="39" column="9" lean-forward="false" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ArrayTypeImpl.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/fr/n7/stl/block/ast/impl/ArrayTypeImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1200">
-              <caret line="82" column="5" lean-forward="false" selection-start-line="82" selection-start-column="5" selection-end-line="82" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#309#310#0" expanded="true" />
-                <element signature="e#339#340#0" expanded="true" />
-                <element signature="e#1320#1321#0" expanded="true" />
-                <element signature="e#1355#1356#0" expanded="true" />
-                <element signature="e#1455#1456#0" expanded="true" />
-                <element signature="e#1488#1489#0" expanded="true" />
-                <element signature="e#1571#1572#0" expanded="true" />
-                <element signature="e#1589#1590#0" expanded="true" />
-                <element signature="e#1633#1634#0" expanded="true" />
-                <element signature="e#1659#1660#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BlockFactoryImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fr/n7/stl/block/ast/impl/BlockFactoryImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="403" column="46" lean-forward="false" selection-start-line="403" selection-start-column="46" selection-end-line="403" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ExpressionFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fr/n7/stl/block/ast/ExpressionFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="191" column="7" lean-forward="false" selection-start-line="191" selection-start-column="4" selection-end-line="191" selection-end-column="7" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PrinterImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fr/n7/stl/block/ast/impl/PrinterImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="37" column="19" lean-forward="false" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
-              <folding>
-                <element signature="e#760#761#0" expanded="true" />
-                <element signature="e#778#779#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PointerTypeImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fr/n7/stl/block/ast/impl/PointerTypeImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="488">
-              <caret line="73" column="5" lean-forward="false" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#389#390#0" expanded="true" />
-                <element signature="e#419#420#0" expanded="true" />
-                <element signature="e#453#454#0" expanded="true" />
-                <element signature="e#479#480#0" expanded="true" />
-                <element signature="e#1401#1402#0" expanded="true" />
-                <element signature="e#1445#1446#0" expanded="true" />
-                <element signature="e#1614#1615#0" expanded="true" />
-                <element signature="e#1641#1642#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RepetitionImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fr/n7/stl/block/ast/impl/RepetitionImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="42" column="41" lean-forward="false" selection-start-line="42" selection-start-column="41" selection-end-line="42" selection-end-column="41" />
+            <state relative-caret-position="155">
+              <caret line="227" column="4" lean-forward="false" selection-start-line="227" selection-start-column="4" selection-end-line="227" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -336,9 +322,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/A_FAIRE" />
-        <option value="$PROJECT_DIR$/fr/n7/stl/block/ast/impl/SequenceTypeImpl.java" />
         <option value="$PROJECT_DIR$/fr/n7/stl/tam/ast/impl/TAMFactoryImpl.java" />
-        <option value="$PROJECT_DIR$/fr/n7/stl/tam/ast/Library.java" />
         <option value="$PROJECT_DIR$/fr/n7/stl/tam/ast/impl/TAMInstructionImpl.java" />
         <option value="$PROJECT_DIR$/egg/S_SuiteNouveau_Bloc.java" />
         <option value="$PROJECT_DIR$/fr/n7/stl/block/ast/TypeFactory.java" />
@@ -346,7 +330,6 @@
         <option value="$PROJECT_DIR$/fr/n7/stl/block/ast/AddressAccess.java" />
         <option value="$PROJECT_DIR$/fr/n7/stl/block/ast/PointerAllocation.java" />
         <option value="$PROJECT_DIR$/fr/n7/stl/block/ast/impl/PointerAllocationImpl.java" />
-        <option value="$PROJECT_DIR$/fr/n7/stl/block/ast/impl/ArrayAllocationImpl.java" />
         <option value="$PROJECT_DIR$/fr/n7/stl/block/ast/ArrayAllocation.java" />
         <option value="$PROJECT_DIR$/fr/n7/stl/block/ast/impl/ArrayAccessImpl.java" />
         <option value="$PROJECT_DIR$/fr/n7/stl/block/ast/impl/ArrayTypeImpl.java" />
@@ -355,9 +338,19 @@
         <option value="$PROJECT_DIR$/egg/S_Affectable_Bloc.java" />
         <option value="$PROJECT_DIR$/Bloc.egg" />
         <option value="$PROJECT_DIR$/fr/n7/stl/block/ast/ExpressionFactory.java" />
-        <option value="$PROJECT_DIR$/fr/n7/stl/block/ast/impl/BlockFactoryImpl.java" />
         <option value="$PROJECT_DIR$/exemples/test00.bloc" />
         <option value="$PROJECT_DIR$/fr/n7/stl/block/ast/impl/PointerTypeImpl.java" />
+        <option value="$PROJECT_DIR$/fr/n7/stl/block/ast/impl/ArrayAllocationImpl.java" />
+        <option value="$PROJECT_DIR$/fr/n7/stl/block/ast/impl/AssignmentImpl.java" />
+        <option value="$PROJECT_DIR$/fr/n7/stl/block/ast/impl/TypeConversionImpl.java" />
+        <option value="$PROJECT_DIR$/fr/n7/stl/block/ast/impl/ConditionalImpl.java" />
+        <option value="$PROJECT_DIR$/fr/n7/stl/tam/ast/Library.java" />
+        <option value="$PROJECT_DIR$/fr/n7/stl/block/ast/ArrayType.java" />
+        <option value="$PROJECT_DIR$/fr/n7/stl/block/ast/impl/RecordTypeImpl.java" />
+        <option value="$PROJECT_DIR$/fr/n7/stl/block/ast/impl/SequenceTypeImpl.java" />
+        <option value="$PROJECT_DIR$/fr/n7/stl/block/ast/impl/BlockImpl.java" />
+        <option value="$PROJECT_DIR$/fr/n7/stl/block/ast/impl/BlockFactoryImpl.java" />
+        <option value="$PROJECT_DIR$/exemples/test05.bloc" />
       </list>
     </option>
   </component>
@@ -371,7 +364,9 @@
     <option name="width" value="1280" />
     <option name="height" value="800" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -399,6 +394,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projet_TP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projet_TP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exemples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
@@ -407,7 +416,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="settings.editor.splitter.proportion" value="0.23368606" />
     <property name="project.structure.last.edited" value="Project" />
@@ -420,6 +429,7 @@
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/../../../../thibmeu/2IMA/SemantiqueEtTraductionDesLangages/tp7/Bloc.egg" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -852,7 +862,7 @@
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Main" />
       <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="exemples/test05.bloc" />
+      <option name="PROGRAM_PARAMETERS" value="exemples/test07.bloc" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
@@ -890,12 +900,20 @@
       <workItem from="1491308851038" duration="2010000" />
       <workItem from="1491584590111" duration="24000" />
       <workItem from="1491584676822" duration="53000" />
-      <workItem from="1492503812966" duration="4148000" />
+      <workItem from="1492503812966" duration="5169000" />
     </task>
+    <task id="LOCAL-00001" summary="TPBE 28/04">
+      <created>1492521109768</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1492521109768</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11062000" />
+    <option name="totallyTimeSpent" value="12083000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -910,35 +928,36 @@
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30547947" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45342466" sideWeight="0.503231" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4561644" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24878837" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.49030694" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30547947" sideWeight="0.49676898" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4561644" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24878837" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.49676898" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -946,6 +965,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="TPBE 28/04" />
+    <option name="LAST_COMMIT_MESSAGE" value="TPBE 28/04" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -963,66 +986,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/fr/n7/stl/tam/ast/Library.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3705">
-          <caret line="247" column="47" lean-forward="false" selection-start-line="247" selection-start-column="47" selection-end-line="247" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fr/n7/stl/tam/ast/impl/TAMInstructionImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1950">
-          <caret line="130" column="64" lean-forward="false" selection-start-line="130" selection-start-column="64" selection-end-line="130" selection-end-column="64" />
-          <folding>
-            <marker date="1491309897000" expanded="true" signature="3900:3975" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fr/n7/stl/block/ast/impl/BlockFactoryImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2250">
-          <caret line="179" column="63" lean-forward="false" selection-start-line="179" selection-start-column="63" selection-end-line="179" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fr/n7/stl/block/ast/TypeFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1500">
-          <caret line="102" column="0" lean-forward="false" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/egg/S_Facteur_Bloc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2550">
-          <caret line="178" column="29" lean-forward="false" selection-start-line="178" selection-start-column="29" selection-end-line="178" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fr/n7/stl/block/ast/impl/ArrayAssignmentImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Bloc.egg">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1044,7 +1007,7 @@
         <state relative-caret-position="1950">
           <caret line="130" column="64" lean-forward="false" selection-start-line="130" selection-start-column="64" selection-end-line="130" selection-end-column="64" />
           <folding>
-            <marker date="1491309897000" expanded="true" signature="3900:3975" ph="..." />
+            <marker date="1492521681000" expanded="true" signature="3846:3921" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1103,13 +1066,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fr/n7/stl/block/ast/impl/SequenceTypeImpl.class" />
-    <entry file="file://$PROJECT_DIR$/fr/n7/stl/block/ast/impl/SequenceTypeImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2175">
-          <caret line="156" column="1" lean-forward="false" selection-start-line="156" selection-start-column="1" selection-end-line="156" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/A_FAIRE">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-906">
@@ -1142,9 +1098,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1500">
           <caret line="102" column="0" lean-forward="false" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1169,16 +1123,8 @@
         <state relative-caret-position="402">
           <caret line="130" column="64" lean-forward="false" selection-start-line="130" selection-start-column="64" selection-end-line="130" selection-end-column="64" />
           <folding>
-            <marker date="1491309897000" expanded="true" signature="3900:3975" ph="..." />
+            <marker date="1492521681000" expanded="true" signature="3846:3921" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fr/n7/stl/tam/ast/Library.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="247" column="47" lean-forward="false" selection-start-line="247" selection-start-column="47" selection-end-line="247" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1202,9 +1148,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1221,7 +1165,6 @@
         <state relative-caret-position="240">
           <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
           <folding>
-            <element signature="n#!!doc" expanded="false" />
             <element signature="imports" expanded="false" />
           </folding>
         </state>
@@ -1247,14 +1190,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="28" lean-forward="false" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fr/n7/stl/block/ast/impl/ArrayAllocationImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="11" column="54" lean-forward="false" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
           <folding />
         </state>
       </provider>
@@ -1298,8 +1233,8 @@
         <state relative-caret-position="110">
           <caret line="37" column="19" lean-forward="false" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
           <folding>
-            <element signature="e#760#761#0" expanded="true" />
-            <element signature="e#778#779#0" expanded="true" />
+            <element signature="e#748#749#0" expanded="true" />
+            <element signature="e#766#767#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1328,28 +1263,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fr/n7/stl/block/ast/impl/BlockFactoryImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="403" column="46" lean-forward="false" selection-start-line="403" selection-start-column="46" selection-end-line="403" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fr/n7/stl/block/ast/impl/PointerTypeImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="488">
           <caret line="73" column="5" lean-forward="false" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#389#390#0" expanded="true" />
-            <element signature="e#419#420#0" expanded="true" />
-            <element signature="e#453#454#0" expanded="true" />
-            <element signature="e#479#480#0" expanded="true" />
-            <element signature="e#1401#1402#0" expanded="true" />
-            <element signature="e#1445#1446#0" expanded="true" />
-            <element signature="e#1614#1615#0" expanded="true" />
-            <element signature="e#1641#1642#0" expanded="true" />
+            <element signature="e#377#378#0" expanded="true" />
+            <element signature="e#407#408#0" expanded="true" />
+            <element signature="e#441#442#0" expanded="true" />
+            <element signature="e#467#468#0" expanded="true" />
+            <element signature="e#1389#1390#0" expanded="true" />
+            <element signature="e#1433#1434#0" expanded="true" />
+            <element signature="e#1602#1603#0" expanded="true" />
+            <element signature="e#1629#1630#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1365,38 +1292,127 @@
     <entry file="file://$PROJECT_DIR$/fr/n7/stl/block/ast/ExpressionFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
-          <caret line="191" column="7" lean-forward="false" selection-start-line="191" selection-start-column="4" selection-end-line="191" selection-end-column="7" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fr/n7/stl/block/ast/ArrayType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="182" column="7" lean-forward="false" selection-start-line="182" selection-start-column="4" selection-end-line="182" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fr/n7/stl/block/ast/impl/ArrayTypeImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1200">
-          <caret line="82" column="5" lean-forward="false" selection-start-line="82" selection-start-column="5" selection-end-line="82" selection-end-column="5" />
+        <state relative-caret-position="765">
+          <caret line="74" column="5" lean-forward="false" selection-start-line="74" selection-start-column="5" selection-end-line="74" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#309#310#0" expanded="true" />
-            <element signature="e#339#340#0" expanded="true" />
-            <element signature="e#1320#1321#0" expanded="true" />
-            <element signature="e#1355#1356#0" expanded="true" />
-            <element signature="e#1455#1456#0" expanded="true" />
-            <element signature="e#1488#1489#0" expanded="true" />
-            <element signature="e#1571#1572#0" expanded="true" />
-            <element signature="e#1589#1590#0" expanded="true" />
-            <element signature="e#1633#1634#0" expanded="true" />
-            <element signature="e#1659#1660#0" expanded="true" />
+            <element signature="e#297#298#0" expanded="true" />
+            <element signature="e#327#328#0" expanded="true" />
+            <element signature="e#1252#1253#0" expanded="true" />
+            <element signature="e#1287#1288#0" expanded="true" />
+            <element signature="e#1387#1388#0" expanded="true" />
+            <element signature="e#1420#1421#0" expanded="true" />
+            <element signature="e#1503#1504#0" expanded="true" />
+            <element signature="e#1521#1522#0" expanded="true" />
+            <element signature="e#1565#1566#0" expanded="true" />
+            <element signature="e#1591#1592#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/egg/JLEX_Bloc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fr/n7/stl/block/ast/impl/TypeConversionImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="19" column="17" lean-forward="false" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fr/n7/stl/block/ast/impl/AssignmentImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fr/n7/stl/block/ast/impl/RecordTypeImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="202" column="17" lean-forward="false" selection-start-line="202" selection-start-column="17" selection-end-line="202" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fr/n7/stl/block/ast/impl/SequenceTypeImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="88" column="49" lean-forward="false" selection-start-line="88" selection-start-column="49" selection-end-line="88" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fr/n7/stl/block/ast/impl/BlockImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="189" column="19" lean-forward="false" selection-start-line="189" selection-start-column="19" selection-end-line="189" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fr/n7/stl/block/ast/impl/ArrayAllocationImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="15" column="41" lean-forward="false" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+          <folding>
+            <element signature="e#378#379#0" expanded="true" />
+            <element signature="e#411#412#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fr/n7/stl/block/ast/impl/BlockFactoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="405" column="7" lean-forward="false" selection-start-line="405" selection-start-column="7" selection-end-line="405" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fr/n7/stl/block/ast/impl/ConditionalImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exemples/test05.bloc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="12" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fr/n7/stl/block/ast/ArrayType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="4" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fr/n7/stl/tam/ast/Library.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="227" column="4" lean-forward="false" selection-start-line="227" selection-start-column="4" selection-end-line="227" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>

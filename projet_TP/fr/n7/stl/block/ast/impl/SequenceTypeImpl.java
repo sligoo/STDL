@@ -1,6 +1,3 @@
-/**
- *
- */
 package fr.n7.stl.block.ast.impl;
 
 import fr.n7.stl.block.ast.AtomicType;
@@ -20,7 +17,7 @@ public class SequenceTypeImpl implements Type {
 	private List<Type> types;
 
 	public SequenceTypeImpl() {
-		this.types = new LinkedList<Type>();
+		this.types = new LinkedList<>();
 	}
 
 	public void add(Type _type) {
@@ -59,12 +56,9 @@ public class SequenceTypeImpl implements Type {
 					return this.equalsTo(((RecordTypeImpl)_other).erase());
 				} else {
 					if (_other instanceof CoupleTypeImpl) {
-						if (this.types.size() == 2) {
-							return this.types.get(0).equalsTo(((CoupleTypeImpl)_other).getFirst()) &&
-									this.types.get(1).equalsTo(((CoupleTypeImpl)_other).getSecond());
-						} else {
-							return false;
-						}
+						return this.types.size() == 2 && this.types.get(0).equalsTo((
+								(CoupleTypeImpl) _other).getFirst()) && this.types.get(1)
+								.equalsTo(((CoupleTypeImpl) _other).getSecond());
 					} else {
 						return false;
 					}
@@ -105,12 +99,9 @@ public class SequenceTypeImpl implements Type {
 					return this.compatibleWith(((RecordTypeImpl)_other).erase());
 				} else {
 					if (_other instanceof CoupleTypeImpl) {
-						if (this.types.size() == 2) {
-							return this.types.get(0).compatibleWith(((CoupleTypeImpl)_other).getFirst()) &&
-									this.types.get(1).compatibleWith(((CoupleTypeImpl)_other).getSecond());
-						} else {
-							return false;
-						}
+						return this.types.size() == 2 && this.types.get(0).compatibleWith((
+								(CoupleTypeImpl) _other).getFirst()) && this.types.get(1)
+								.compatibleWith(((CoupleTypeImpl) _other).getSecond());
 					} else {
 						return false;
 					}

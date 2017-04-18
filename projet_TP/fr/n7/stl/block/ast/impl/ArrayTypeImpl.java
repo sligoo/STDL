@@ -1,6 +1,3 @@
-/**
- * 
- */
 package fr.n7.stl.block.ast.impl;
 
 import fr.n7.stl.block.ast.ArrayType;
@@ -23,10 +20,8 @@ public class ArrayTypeImpl implements Type, ArrayType {
 	 */
 	@Override
 	public boolean equalsTo(Type _other) {
-		if (_other instanceof ArrayTypeImpl) {
-			return this.element.equalsTo(((ArrayTypeImpl) _other).element);
-		}
-		return false;
+		return _other instanceof ArrayTypeImpl && this.element.equalsTo(((ArrayTypeImpl)
+				_other).element);
 
 	}
 
@@ -35,11 +30,8 @@ public class ArrayTypeImpl implements Type, ArrayType {
 	 */
 	@Override
 	public boolean compatibleWith(Type _other) {
-		if (_other instanceof ArrayTypeImpl) {
-			return this.element.compatibleWith(((ArrayTypeImpl)_other).element);
-		} else {
-			return false;
-		}
+		return _other instanceof ArrayTypeImpl && this.element.compatibleWith((
+				(ArrayTypeImpl) _other).element);
 	}
 
 	/* (non-Javadoc)

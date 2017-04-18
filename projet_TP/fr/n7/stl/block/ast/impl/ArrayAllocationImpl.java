@@ -1,22 +1,20 @@
 package fr.n7.stl.block.ast.impl;
 
 import fr.n7.stl.block.ast.ArrayAllocation;
-import fr.n7.stl.block.ast.Expression;
 import fr.n7.stl.block.ast.Type;
 import fr.n7.stl.tam.ast.Fragment;
 import fr.n7.stl.tam.ast.TAMFactory;
 
 /**
+ * Project: projet_TP
  * Created by sacha on 18/04/17.
  */
 public class ArrayAllocationImpl implements ArrayAllocation {
 
     private Type type;
-    private Expression size;
 
-    public ArrayAllocationImpl(Type _type, Expression _size) {
+    public ArrayAllocationImpl(Type _type) {
         this.type = _type;
-        this.size = _size;
     }
 
     /**

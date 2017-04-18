@@ -1,9 +1,4 @@
-/**
- * 
- */
 package fr.n7.stl.block.ast.impl;
-
-import java.util.Optional;
 
 import fr.n7.stl.block.ast.AtomicType;
 import fr.n7.stl.block.ast.Block;
@@ -12,6 +7,8 @@ import fr.n7.stl.block.ast.Instruction;
 import fr.n7.stl.tam.ast.Fragment;
 import fr.n7.stl.tam.ast.Register;
 import fr.n7.stl.tam.ast.TAMFactory;
+
+import java.util.Optional;
 
 /**
  * Implementation of the Abstract Syntax Tree node for a conditional instruction.
@@ -41,7 +38,8 @@ public class ConditionalImpl implements Instruction {
 	 */
 	@Override
 	public String toString() {
-		return "if (" + this.condition + " )" + this.thenBranch + ((this.elseBranch.isPresent())?(" else " + this.elseBranch.get()):"");
+		return "if (" + this.condition + " )" + this.thenBranch + (elseBranch.map(block ->
+				(" else " + block)).orElse(""));
 	}
 
 	/* (non-Javadoc)
@@ -51,7 +49,7 @@ public class ConditionalImpl implements Instruction {
 	public boolean checkType() {
 		return this.condition.getType().compatibleWith(AtomicType.BooleanType) 
 				&& this.thenBranch.checkType() 
-				&& (this.elseBranch.isPresent()?this.elseBranch.get().checkType():true);
+				&& (elseBranch.map(Block::checkType).orElse(true));
 	}
 
 	/* (non-Javadoc)

@@ -1,21 +1,13 @@
-/**
- * 
- */
 package fr.n7.stl.block.ast.impl;
+
+import fr.n7.stl.block.ast.*;
+import fr.n7.stl.tam.ast.Fragment;
+import fr.n7.stl.tam.ast.Register;
+import fr.n7.stl.tam.ast.TAMFactory;
 
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Optional;
-
-import fr.n7.stl.block.ast.Block;
-import fr.n7.stl.block.ast.ConstantDeclaration;
-import fr.n7.stl.block.ast.Declaration;
-import fr.n7.stl.block.ast.Instruction;
-import fr.n7.stl.block.ast.TypeDeclaration;
-import fr.n7.stl.block.ast.VariableDeclaration;
-import fr.n7.stl.tam.ast.Fragment;
-import fr.n7.stl.tam.ast.Register;
-import fr.n7.stl.tam.ast.TAMFactory;
 
 /**
  * Implementation of the Abstract Syntax Tree node for an instruction block.
@@ -57,10 +49,10 @@ public class BlockImpl implements Block {
 	 */
 	public BlockImpl(Block _context) {
 		assert( _context != null);
-		this.instructions = new LinkedList<Instruction>();
-		this.variables = new LinkedList<VariableDeclaration>();
-		this.constants = new LinkedList<ConstantDeclaration>();
-		this.types = new LinkedList<TypeDeclaration>();
+		this.instructions = new LinkedList<>();
+		this.variables = new LinkedList<>();
+		this.constants = new LinkedList<>();
+		this.types = new LinkedList<>();
 		if (_context == null) {
 			this.context = Optional.empty();
 		} else {
@@ -72,10 +64,10 @@ public class BlockImpl implements Block {
 	 * Constructor for a block root of the block hierarchy.
 	 */
 	public BlockImpl() {
-		this.instructions = new LinkedList<Instruction>();
-		this.variables = new LinkedList<VariableDeclaration>();
-		this.constants = new LinkedList<ConstantDeclaration>();
-		this.types = new LinkedList<TypeDeclaration>();
+		this.instructions = new LinkedList<>();
+		this.variables = new LinkedList<>();
+		this.constants = new LinkedList<>();
+		this.types = new LinkedList<>();
 		this.context = Optional.empty();
 	}
 
@@ -193,9 +185,9 @@ public class BlockImpl implements Block {
 	 */
 	@Override
 	public String toString() {
-		String _local = "";
+		StringBuilder _local = new StringBuilder();
 		for (Instruction _instruction : this.instructions) {
-			_local += _instruction;
+			_local.append(_instruction);
 		}
 		return "{\n" + _local + "}\n" ;
 	}
