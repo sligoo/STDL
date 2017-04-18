@@ -23,29 +23,29 @@ int [] sync= new int[0];
   boolean att_eval;
   Assignable att_ast;
   LEX_Bloc att_scanner;
-  private void regle68() throws Exception {
+  private void regle12() throws Exception {
 
 	//declaration
 	T_Bloc x_2 = new T_Bloc(scanner ) ;
 	S_Affectable_Bloc x_3 = new S_Affectable_Bloc(scanner,att_eval) ;
 	//appel
-if  (att_eval)	  action_auto_inh_68(x_3);
+if  (att_eval)	  action_auto_inh_12(x_3);
 	x_2.analyser(LEX_Bloc.token_multiplication);
 	x_3.analyser() ;
-if  (att_eval)	  action_ast_68(x_3);
+if  (att_eval)	  action_ast_12(x_3);
   }
-  private void regle67() throws Exception {
+  private void regle11() throws Exception {
 
 	//declaration
 	T_Bloc x_2 = new T_Bloc(scanner ) ;
 	S_Affectable_Bloc x_3 = new S_Affectable_Bloc(scanner,att_eval) ;
 	T_Bloc x_4 = new T_Bloc(scanner ) ;
 	//appel
-if  (att_eval)	  action_auto_inh_67(x_3);
+if  (att_eval)	  action_auto_inh_11(x_3);
 	x_2.analyser(LEX_Bloc.token_parenthese_ouvrante);
 	x_3.analyser() ;
 	x_4.analyser(LEX_Bloc.token_parenthese_fermante);
-if  (att_eval)	  action_ast_67(x_3);
+if  (att_eval)	  action_ast_11(x_3);
   }
   private void regle10() throws Exception {
 
@@ -92,7 +92,7 @@ x_4.att_tds=this.att_tds;
 }catch(RuntimeException e) {	   att_scanner._interrompre(IProblem.Internal,att_scanner.getBeginLine(),ICoreMessages.id_EGG_runtime_error, CoreMessages.EGG_runtime_error,new Object[] { "Bloc", "#auto_inh","Affectable -> identificateur #inh SuiteAffectable #ast ;", e });
 }
   }
-private void action_auto_inh_67(S_Affectable_Bloc x_3) throws Exception {
+private void action_auto_inh_11(S_Affectable_Bloc x_3) throws Exception {
 try {
 // instructions
 x_3.att_factory=this.att_factory;
@@ -100,7 +100,7 @@ x_3.att_tds=this.att_tds;
 }catch(RuntimeException e) {	   att_scanner._interrompre(IProblem.Internal,att_scanner.getBeginLine(),ICoreMessages.id_EGG_runtime_error, CoreMessages.EGG_runtime_error,new Object[] { "Bloc", "#auto_inh","Affectable -> parenthese_ouvrante Affectable1 parenthese_fermante #ast ;", e });
 }
   }
-private void action_auto_inh_68(S_Affectable_Bloc x_3) throws Exception {
+private void action_auto_inh_12(S_Affectable_Bloc x_3) throws Exception {
 try {
 // instructions
 x_3.att_factory=this.att_factory;
@@ -115,17 +115,17 @@ this.att_ast=x_4.att_ast;
 }catch(RuntimeException e) {	   att_scanner._interrompre(IProblem.Internal,att_scanner.getBeginLine(),ICoreMessages.id_EGG_runtime_error, CoreMessages.EGG_runtime_error,new Object[] { "Bloc", "#ast","Affectable -> identificateur #inh SuiteAffectable #ast ;", e });
 }
   }
-private void action_ast_67(S_Affectable_Bloc x_3) throws Exception {
+private void action_ast_11(S_Affectable_Bloc x_3) throws Exception {
 try {
 // instructions
 this.att_ast=x_3.att_ast;
 }catch(RuntimeException e) {	   att_scanner._interrompre(IProblem.Internal,att_scanner.getBeginLine(),ICoreMessages.id_EGG_runtime_error, CoreMessages.EGG_runtime_error,new Object[] { "Bloc", "#ast","Affectable -> parenthese_ouvrante Affectable1 parenthese_fermante #ast ;", e });
 }
   }
-private void action_ast_68(S_Affectable_Bloc x_3) throws Exception {
+private void action_ast_12(S_Affectable_Bloc x_3) throws Exception {
 try {
 // instructions
-this.att_ast=this.att_factory.createPointerAssignement(x_3.att_ast);
+this.att_ast=this.att_factory.createPointerAssignment(x_3.att_ast);
 }catch(RuntimeException e) {	   att_scanner._interrompre(IProblem.Internal,att_scanner.getBeginLine(),ICoreMessages.id_EGG_runtime_error, CoreMessages.EGG_runtime_error,new Object[] { "Bloc", "#ast","Affectable -> multiplication Affectable1 #ast ;", e });
 }
   }
@@ -136,10 +136,10 @@ this.att_ast=this.att_factory.createPointerAssignement(x_3.att_ast);
         regle10 () ;
       break ;
       case LEX_Bloc.token_parenthese_ouvrante : // 34
-        regle67 () ;
+        regle11 () ;
       break ;
       case LEX_Bloc.token_multiplication : // 49
-        regle68 () ;
+        regle12 () ;
       break ;
       default :
         	   scanner._interrompre(IProblem.Syntax, scanner.getBeginLine(), IBlocMessages.id_Bloc_unexpected_token,BlocMessages.Bloc_unexpected_token,new String[]{scanner.fenetre[0].getNom()});

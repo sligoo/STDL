@@ -23,26 +23,33 @@ int [] sync= new int[0];
   boolean att_eval;
   Expression att_ast;
   LEX_Bloc att_scanner;
-  private void regle19() throws Exception {
+  private void regle28() throws Exception {
 
 	//declaration
 	S_Condition_Bloc x_2 = new S_Condition_Bloc(scanner,att_eval) ;
 	S_SuiteCondition_Bloc x_4 = new S_SuiteCondition_Bloc(scanner,att_eval) ;
 	//appel
-if  (att_eval)	  action_auto_inh_19(x_2, x_4);
+if  (att_eval)	  action_auto_inh_28(x_2, x_4);
 	x_2.analyser() ;
-if  (att_eval)	  action_inh_19(x_2, x_4);
+if  (att_eval)	  action_inh_28(x_2, x_4);
 	x_4.analyser() ;
-if  (att_eval)	  action_ast_19(x_2, x_4);
+if  (att_eval)	  action_ast_28(x_2, x_4);
   }
-private void action_ast_19(S_Condition_Bloc x_2, S_SuiteCondition_Bloc x_4) throws Exception {
+private void action_ast_28(S_Condition_Bloc x_2, S_SuiteCondition_Bloc x_4) throws Exception {
 try {
 // instructions
 this.att_ast=x_4.att_ast;
 }catch(RuntimeException e) {	   att_scanner._interrompre(IProblem.Internal,att_scanner.getBeginLine(),ICoreMessages.id_EGG_runtime_error, CoreMessages.EGG_runtime_error,new Object[] { "Bloc", "#ast","Expression -> Condition #inh SuiteCondition #ast ;", e });
 }
   }
-private void action_auto_inh_19(S_Condition_Bloc x_2, S_SuiteCondition_Bloc x_4) throws Exception {
+private void action_inh_28(S_Condition_Bloc x_2, S_SuiteCondition_Bloc x_4) throws Exception {
+try {
+// instructions
+x_4.att_gauche=x_2.att_ast;
+}catch(RuntimeException e) {	   att_scanner._interrompre(IProblem.Internal,att_scanner.getBeginLine(),ICoreMessages.id_EGG_runtime_error, CoreMessages.EGG_runtime_error,new Object[] { "Bloc", "#inh","Expression -> Condition #inh SuiteCondition #ast ;", e });
+}
+  }
+private void action_auto_inh_28(S_Condition_Bloc x_2, S_SuiteCondition_Bloc x_4) throws Exception {
 try {
 // instructions
 x_2.att_factory=this.att_factory;
@@ -52,14 +59,7 @@ x_4.att_tds=this.att_tds;
 }catch(RuntimeException e) {	   att_scanner._interrompre(IProblem.Internal,att_scanner.getBeginLine(),ICoreMessages.id_EGG_runtime_error, CoreMessages.EGG_runtime_error,new Object[] { "Bloc", "#auto_inh","Expression -> Condition #inh SuiteCondition #ast ;", e });
 }
   }
-private void action_inh_19(S_Condition_Bloc x_2, S_SuiteCondition_Bloc x_4) throws Exception {
-try {
-// instructions
-x_4.att_gauche=x_2.att_ast;
-}catch(RuntimeException e) {	   att_scanner._interrompre(IProblem.Internal,att_scanner.getBeginLine(),ICoreMessages.id_EGG_runtime_error, CoreMessages.EGG_runtime_error,new Object[] { "Bloc", "#inh","Expression -> Condition #inh SuiteCondition #ast ;", e });
-}
-  }
   public void analyser () throws Exception {
-    regle19 () ;
+    regle28 () ;
   }
   }

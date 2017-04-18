@@ -320,27 +320,16 @@ public class JLEX_Bloc implements  LEX_ANALYZER  {
 		/* 86 */ YY_NO_ANCHOR,
 		/* 87 */ YY_NO_ANCHOR,
 		/* 88 */ YY_NO_ANCHOR,
-		/* 89 */ YY_NO_ANCHOR,
-		/* 90 */ YY_NO_ANCHOR,
-		/* 91 */ YY_NO_ANCHOR,
-		/* 92 */ YY_NO_ANCHOR,
-		/* 93 */ YY_NO_ANCHOR,
-		/* 94 */ YY_NO_ANCHOR,
-		/* 95 */ YY_NO_ANCHOR,
-		/* 96 */ YY_NO_ANCHOR,
-		/* 97 */ YY_NO_ANCHOR,
-		/* 98 */ YY_NO_ANCHOR,
-		/* 99 */ YY_NO_ANCHOR,
-		/* 100 */ YY_NO_ANCHOR
+		/* 89 */ YY_NO_ANCHOR
 	};
 	private int yy_cmap[] = unpackFromString(1,258,
-"3:9,4,5,3:2,1,3:18,4,18,3:3,23,24,3,10,11,22,19,17,20,15,2,44:10,3,16,12,14" +",13,3:2,47:26,8,3,9,3,46,3,30,39,41,38,28,29,45,37,33,45:2,31,45,35,40,34,4" +"5,26,32,25,27,43,36,45,42,45,6,21,7,3:130,0:2")[0];
+"3:9,4,5,3:2,1,3:18,4,18,3:3,23,24,3,10,11,22,19,17,20,15,2,43:10,3,16,12,14" +",13,3:2,46:26,8,3,9,3,45,3,30,39,41,38,28,29,44,37,33,44:2,31,44,35,40,34,4" +"4,26,32,25,27,44,36,44,42,44,6,21,7,3:130,0:2")[0];
 
-	private int yy_rmap[] = unpackFromString(1,101,
-"0,1,2,3,1:7,4,5,6,1:3,7,1:4,8,9,10,1:6,11,1,11:14,12,13,14,15,16,17,18,19,2" +"0,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,4" +"5,46,47,48,49,50,51,52,53,11,54,55,56,57,58,59,60,61,62,63,64")[0];
+	private int yy_rmap[] = unpackFromString(1,90,
+"0,1,2,3,1:7,4,5,6,1:3,7,1:4,8,9,10,11,1:6,12,1,12:13,13,14,15,16,17,18,19,2" +"0,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,4" +"5,46,47,48,12,49,50,51,52,53,54")[0];
 
-	private int yy_nxt[][] = unpackFromString(65,48,
-"1,2,3,4,2:2,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,48,20,21,50,22,89:2,94," +"65,95,89,66,49,96,97,98,89:2,99,89,100,89:2,23,89,4,24,-1:49,2,-1:2,2:2,-1:" +"44,47,-1:59,25,-1:47,26,-1:47,27,-1:47,28,-1:58,89,67,89:15,68,89:5,-1:44,2" +"3,-1:28,24:23,-1:25,89:23,-1:2,47:3,32,47:42,-1:21,29,-1:51,89:4,31,89:5,53" +",89:12,-1:24,30,-1:48,33,89:22,-1:25,89:13,34,89:9,-1:25,35,89:22,-1:25,89:" +"3,36,89:19,-1:25,89:3,37,89:19,-1:25,89:6,38,89:16,-1:25,89:3,39,89:19,-1:2" +"5,40,89:22,-1:25,89:3,41,89:19,-1:25,42,89:22,-1:25,43,89:22,-1:25,89:4,44," +"89:18,-1:25,89:3,45,89:19,-1:25,89:2,46,89:20,-1:25,89:5,70,89,51,89:15,-1:" +"25,90,89:9,52,89:12,-1:25,89:2,54,89:20,-1:25,89:9,76,89:13,-1:25,89:7,55,8" +"9:15,-1:25,89:6,77,89:16,-1:25,89,93,89:21,-1:25,89:8,78,89:14,-1:25,89:2,7" +"9,89:20,-1:25,89:15,56,89:7,-1:25,89:10,81,89:12,-1:25,89:3,82,89:19,-1:25," +"89:7,57,89:15,-1:25,89:10,58,89:12,-1:25,89:18,85,89:4,-1:25,89:6,59,89:16," +"-1:25,89:7,60,89:15,-1:25,89:13,86,89:9,-1:25,89:7,87,89:15,-1:25,89:16,61," +"89:6,-1:25,89:3,88,89:19,-1:25,89:3,62,89:19,-1:25,89:7,63,89:15,-1:25,89:5" +",64,89:17,-1:25,89,92,89:21,-1:25,89:8,80,89:14,-1:25,89:2,84,89:20,-1:25,8" +"9:3,83,89:19,-1:25,89:6,69,89:16,-1:25,89:13,71,89:9,-1:25,89,72,89:21,-1:2" +"5,89:15,73,89:7,-1:25,89:12,91,89:10,-1:25,89:15,74,89:7,-1:25,89:15,75,89:" +"7");
+	private int yy_nxt[][] = unpackFromString(55,47,
+"1,2,3,4,2:2,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,48,20,21,22,23,83:2,85," +"63,83:2,64,49,86,65,87,83:2,88,83,89,83,24,83,4,25,-1:48,2,-1:2,2:2,-1:43,4" +"7,-1:58,26,-1:46,27,-1:46,28,-1:46,29,-1:56,31,-1:47,83,66,83:15,67,83:4,-1" +":43,24,-1:28,25:22,-1:25,83:22,-1:2,47:3,33,47:41,-1:21,30,-1:50,83:4,32,83" +":5,52,83:11,-1:25,34,83:21,-1:25,83:13,35,83:8,-1:25,36,83:21,-1:25,83:11,3" +"7,83:10,-1:25,83:3,38,83:18,-1:25,83:3,39,83:18,-1:25,83:6,40,83:15,-1:25,8" +"3:3,41,83:18,-1:25,42,83:21,-1:25,83:3,43,83:18,-1:25,44,83:21,-1:25,45,83:" +"21,-1:25,83:4,46,83:17,-1:25,83:5,69,83,50,83:14,-1:25,70,83:9,51,83:11,-1:" +"25,83:3,53,83:18,-1:25,83:2,54,83:19,-1:25,83:9,74,83:12,-1:25,83:7,55,83:1" +"4,-1:25,83:6,75,83:15,-1:25,83,76,83:20,-1:25,83:8,77,83:13,-1:25,83:15,56," +"83:6,-1:25,83:10,79,83:11,-1:25,83:3,80,83:18,-1:25,83:7,57,83:14,-1:25,83:" +"2,81,83:19,-1:25,83:10,58,83:11,-1:25,83:6,59,83:15,-1:25,83:7,60,83:14,-1:" +"25,83:13,82,83:8,-1:25,83:16,61,83:5,-1:25,83:3,62,83:18,-1:25,83:8,78,83:1" +"3,-1:25,83:6,68,83:15,-1:25,83,71,83:20,-1:25,83:12,84,83:9,-1:25,83:15,72," +"83:6,-1:25,83:15,73,83:6");
 
 	public Yytoken yylex ()
 		throws java.io.IOException {
@@ -558,7 +547,7 @@ case -22:
 					
 case 22:
 					
-	{return new Yytoken(LEX_Bloc.token_identificateur, yytext(), yyline, yychar, yychar+1);}
+	{return new Yytoken(LEX_Bloc.token_adresse, yytext(), yyline, yychar, yychar+1);}
 					
 case -23:
 					
@@ -566,7 +555,7 @@ case -23:
 					
 case 23:
 					
-	{return new Yytoken(LEX_Bloc.token_entier, yytext(), yyline, yychar, yychar+1);}
+	{return new Yytoken(LEX_Bloc.token_identificateur, yytext(), yyline, yychar, yychar+1);}
 					
 case -24:
 					
@@ -574,7 +563,7 @@ case -24:
 					
 case 24:
 					
-	{return new Yytoken(LEX_Bloc.token_identificateur_type, yytext(), yyline, yychar, yychar+1);}
+	{return new Yytoken(LEX_Bloc.token_entier, yytext(), yyline, yychar, yychar+1);}
 					
 case -25:
 					
@@ -582,7 +571,7 @@ case -25:
 					
 case 25:
 					
-	{return new Yytoken(LEX_Bloc.token_inferieur_egal, yytext(), yyline, yychar, yychar+1);}
+	{return new Yytoken(LEX_Bloc.token_identificateur_type, yytext(), yyline, yychar, yychar+1);}
 					
 case -26:
 					
@@ -590,7 +579,7 @@ case -26:
 					
 case 26:
 					
-	{return new Yytoken(LEX_Bloc.token_superieur_egal, yytext(), yyline, yychar, yychar+1);}
+	{return new Yytoken(LEX_Bloc.token_inferieur_egal, yytext(), yyline, yychar, yychar+1);}
 					
 case -27:
 					
@@ -598,7 +587,7 @@ case -27:
 					
 case 27:
 					
-	{return new Yytoken(LEX_Bloc.token_egalite, yytext(), yyline, yychar, yychar+1);}
+	{return new Yytoken(LEX_Bloc.token_superieur_egal, yytext(), yyline, yychar, yychar+1);}
 					
 case -28:
 					
@@ -606,7 +595,7 @@ case -28:
 					
 case 28:
 					
-	{return new Yytoken(LEX_Bloc.token_different, yytext(), yyline, yychar, yychar+1);}
+	{return new Yytoken(LEX_Bloc.token_egalite, yytext(), yyline, yychar, yychar+1);}
 					
 case -29:
 					
@@ -614,7 +603,7 @@ case -29:
 					
 case 29:
 					
-	{return new Yytoken(LEX_Bloc.token_ou, yytext(), yyline, yychar, yychar+1);}
+	{return new Yytoken(LEX_Bloc.token_different, yytext(), yyline, yychar, yychar+1);}
 					
 case -30:
 					
@@ -622,7 +611,7 @@ case -30:
 					
 case 30:
 					
-	{return new Yytoken(LEX_Bloc.token_et, yytext(), yyline, yychar, yychar+1);}
+	{return new Yytoken(LEX_Bloc.token_ou, yytext(), yyline, yychar, yychar+1);}
 					
 case -31:
 					
@@ -630,7 +619,7 @@ case -31:
 					
 case 31:
 					
-	{return new Yytoken(LEX_Bloc.token_si, yytext(), yyline, yychar, yychar+1);}
+	{return new Yytoken(LEX_Bloc.token_et, yytext(), yyline, yychar, yychar+1);}
 					
 case -32:
 					
@@ -638,7 +627,7 @@ case -32:
 					
 case 32:
 					
-	{return new Yytoken(LEX_Bloc.token_commentaire, yytext(), yyline, yychar, yychar+1);}
+	{return new Yytoken(LEX_Bloc.token_si, yytext(), yyline, yychar, yychar+1);}
 					
 case -33:
 					
@@ -646,7 +635,7 @@ case -33:
 					
 case 33:
 					
-	{return new Yytoken(LEX_Bloc.token_premier, yytext(), yyline, yychar, yychar+1);}
+	{return new Yytoken(LEX_Bloc.token_commentaire, yytext(), yyline, yychar, yychar+1);}
 					
 case -34:
 					
@@ -654,7 +643,7 @@ case -34:
 					
 case 34:
 					
-	{return new Yytoken(LEX_Bloc.token_second, yytext(), yyline, yychar, yychar+1);}
+	{return new Yytoken(LEX_Bloc.token_premier, yytext(), yyline, yychar, yychar+1);}
 					
 case -35:
 					
@@ -662,7 +651,7 @@ case -35:
 					
 case 35:
 					
-	{return new Yytoken(LEX_Bloc.token_type_int, yytext(), yyline, yychar, yychar+1);}
+	{return new Yytoken(LEX_Bloc.token_second, yytext(), yyline, yychar, yychar+1);}
 					
 case -36:
 					
@@ -670,7 +659,7 @@ case -36:
 					
 case 36:
 					
-	{return new Yytoken(LEX_Bloc.token_vrai, yytext(), yyline, yychar, yychar+1);}
+	{return new Yytoken(LEX_Bloc.token_type_int, yytext(), yyline, yychar, yychar+1);}
 					
 case -37:
 					
@@ -678,7 +667,7 @@ case -37:
 					
 case 37:
 					
-	{return new Yytoken(LEX_Bloc.token_sinon, yytext(), yyline, yychar, yychar+1);}
+	{return new Yytoken(LEX_Bloc.token_nouveau, yytext(), yyline, yychar, yychar+1);}
 					
 case -38:
 					
@@ -686,7 +675,7 @@ case -38:
 					
 case 38:
 					
-	{return new Yytoken(LEX_Bloc.token_type_bool, yytext(), yyline, yychar, yychar+1);}
+	{return new Yytoken(LEX_Bloc.token_vrai, yytext(), yyline, yychar, yychar+1);}
 					
 case -39:
 					
@@ -694,7 +683,7 @@ case -39:
 					
 case 39:
 					
-	{return new Yytoken(LEX_Bloc.token_faux, yytext(), yyline, yychar, yychar+1);}
+	{return new Yytoken(LEX_Bloc.token_sinon, yytext(), yyline, yychar, yychar+1);}
 					
 case -40:
 					
@@ -702,7 +691,7 @@ case -40:
 					
 case 40:
 					
-	{return new Yytoken(LEX_Bloc.token_afficher, yytext(), yyline, yychar, yychar+1);}
+	{return new Yytoken(LEX_Bloc.token_type_bool, yytext(), yyline, yychar, yychar+1);}
 					
 case -41:
 					
@@ -710,7 +699,7 @@ case -41:
 					
 case 41:
 					
-	{return new Yytoken(LEX_Bloc.token_tant_que, yytext(), yyline, yychar, yychar+1);}
+	{return new Yytoken(LEX_Bloc.token_faux, yytext(), yyline, yychar, yychar+1);}
 					
 case -42:
 					
@@ -718,7 +707,7 @@ case -42:
 					
 case 42:
 					
-	{return new Yytoken(LEX_Bloc.token_constante, yytext(), yyline, yychar, yychar+1);}
+	{return new Yytoken(LEX_Bloc.token_afficher, yytext(), yyline, yychar, yychar+1);}
 					
 case -43:
 					
@@ -726,7 +715,7 @@ case -43:
 					
 case 43:
 					
-	{return new Yytoken(LEX_Bloc.token_enregistrement, yytext(), yyline, yychar, yychar+1);}
+	{return new Yytoken(LEX_Bloc.token_tant_que, yytext(), yyline, yychar, yychar+1);}
 					
 case -44:
 					
@@ -734,7 +723,7 @@ case -44:
 					
 case 44:
 					
-	{return new Yytoken(LEX_Bloc.token_typedef, yytext(), yyline, yychar, yychar+1);}
+	{return new Yytoken(LEX_Bloc.token_constante, yytext(), yyline, yychar, yychar+1);}
 					
 case -45:
 					
@@ -742,7 +731,7 @@ case -45:
 					
 case 45:
 					
-	{return new Yytoken(LEX_Bloc.token_adresse, yytext(), yyline, yychar, yychar+1);}
+	{return new Yytoken(LEX_Bloc.token_enregistrement, yytext(), yyline, yychar, yychar+1);}
 					
 case -46:
 					
@@ -750,7 +739,7 @@ case -46:
 					
 case 46:
 					
-	{return new Yytoken(LEX_Bloc.token_nouveau, yytext(), yyline, yychar, yychar+1);}
+	{return new Yytoken(LEX_Bloc.token_typedef, yytext(), yyline, yychar, yychar+1);}
 					
 case -47:
 					
@@ -774,7 +763,7 @@ case -49:
 					
 case 50:
 					
-	{return new Yytoken(LEX_Bloc.token_autre, yytext(), yyline, yychar, yychar+1);}
+	{return new Yytoken(LEX_Bloc.token_identificateur, yytext(), yyline, yychar, yychar+1);}
 					
 case -50:
 					
@@ -1089,94 +1078,6 @@ case 89:
 	{return new Yytoken(LEX_Bloc.token_identificateur, yytext(), yyline, yychar, yychar+1);}
 					
 case -89:
-					
-	break;
-					
-case 90:
-					
-	{return new Yytoken(LEX_Bloc.token_identificateur, yytext(), yyline, yychar, yychar+1);}
-					
-case -90:
-					
-	break;
-					
-case 91:
-					
-	{return new Yytoken(LEX_Bloc.token_identificateur, yytext(), yyline, yychar, yychar+1);}
-					
-case -91:
-					
-	break;
-					
-case 92:
-					
-	{return new Yytoken(LEX_Bloc.token_identificateur, yytext(), yyline, yychar, yychar+1);}
-					
-case -92:
-					
-	break;
-					
-case 93:
-					
-	{return new Yytoken(LEX_Bloc.token_identificateur, yytext(), yyline, yychar, yychar+1);}
-					
-case -93:
-					
-	break;
-					
-case 94:
-					
-	{return new Yytoken(LEX_Bloc.token_identificateur, yytext(), yyline, yychar, yychar+1);}
-					
-case -94:
-					
-	break;
-					
-case 95:
-					
-	{return new Yytoken(LEX_Bloc.token_identificateur, yytext(), yyline, yychar, yychar+1);}
-					
-case -95:
-					
-	break;
-					
-case 96:
-					
-	{return new Yytoken(LEX_Bloc.token_identificateur, yytext(), yyline, yychar, yychar+1);}
-					
-case -96:
-					
-	break;
-					
-case 97:
-					
-	{return new Yytoken(LEX_Bloc.token_identificateur, yytext(), yyline, yychar, yychar+1);}
-					
-case -97:
-					
-	break;
-					
-case 98:
-					
-	{return new Yytoken(LEX_Bloc.token_identificateur, yytext(), yyline, yychar, yychar+1);}
-					
-case -98:
-					
-	break;
-					
-case 99:
-					
-	{return new Yytoken(LEX_Bloc.token_identificateur, yytext(), yyline, yychar, yychar+1);}
-					
-case -99:
-					
-	break;
-					
-case 100:
-					
-	{return new Yytoken(LEX_Bloc.token_identificateur, yytext(), yyline, yychar, yychar+1);}
-					
-case -100:
 					
 	break;
 					default:

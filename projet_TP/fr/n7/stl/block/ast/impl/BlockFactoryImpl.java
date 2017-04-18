@@ -389,6 +389,21 @@ public class BlockFactoryImpl implements BlockFactory {
 		return new SequenceImpl(_values);
 	}
 
+	@Override
+	public Expression createArrayAllocation(Type att_type, Expression att_ast) {
+		return new ArrayAllocationImpl(att_type, att_ast);
+	}
+
+	@Override
+	public Expression createPointerAllocation(Type att_type) {
+		return new PointerAllocationImpl(att_type);
+	}
+
+	@Override
+	public Expression createAddressAccess(Expression _variable) {
+		return new AddressAccessImpl(_variable);
+	}
+
 	/* (non-Javadoc)
 	 * @see fr.n7.stl.block.ast.TypeFactory#createNamedType(fr.n7.stl.block.ast.TypeDeclaration)
 	 */

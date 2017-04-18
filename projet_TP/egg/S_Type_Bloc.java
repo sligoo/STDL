@@ -23,7 +23,7 @@ int [] sync= new int[0];
   boolean att_eval;
   Type att_ast;
   LEX_Bloc att_scanner;
-  RecordType glob_53_t;
+  RecordType glob_68_t;
   private void regle2() throws Exception {
 
 	//declaration
@@ -65,7 +65,7 @@ if  (att_eval)	  action_ast_4(x_3, x_5);
 	x_2.analyser(LEX_Bloc.token_identificateur_type);
 if  (att_eval)	  action_ast_5(x_2);
   }
-  private void regle53() throws Exception {
+  private void regle68() throws Exception {
 
 	//declaration
 	T_Bloc x_2 = new T_Bloc(scanner ) ;
@@ -74,36 +74,14 @@ if  (att_eval)	  action_ast_5(x_2);
 	S_Champs_Bloc x_6 = new S_Champs_Bloc(scanner,att_eval) ;
 	T_Bloc x_7 = new T_Bloc(scanner ) ;
 	//appel
-if  (att_eval)	  action_auto_inh_53(x_3, x_6);
+if  (att_eval)	  action_auto_inh_68(x_3, x_6);
 	x_2.analyser(LEX_Bloc.token_enregistrement);
 	x_3.analyser(LEX_Bloc.token_identificateur_type);
 	x_4.analyser(LEX_Bloc.token_accolade_ouvrante);
-if  (att_eval)	  action_inh_53(x_3, x_6);
+if  (att_eval)	  action_inh_68(x_3, x_6);
 	x_6.analyser() ;
 	x_7.analyser(LEX_Bloc.token_accolade_fermante);
-if  (att_eval)	  action_ast_53(x_3, x_6);
-  }
-private void action_inh_53(T_Bloc x_3, S_Champs_Bloc x_6) throws Exception {
-try {
-// instructions
-if ((this.att_tds.contains(x_3.att_txt))){
-att_scanner._interrompre(IProblem.Semantic, att_scanner.getBeginLine(), IBlocMessages.id_Bloc_already_defined, BlocMessages.Bloc_already_defined,new Object[]{""+x_3.att_txt});
-
-}
-else {
-glob_53_t=this.att_factory.createRecordType(x_3.att_txt);
-this.att_tds.register(glob_53_t);
-}
-}catch(RuntimeException e) {	   att_scanner._interrompre(IProblem.Internal,att_scanner.getBeginLine(),ICoreMessages.id_EGG_runtime_error, CoreMessages.EGG_runtime_error,new Object[] { "Bloc", "#inh","Type -> enregistrement identificateur_type accolade_ouvrante #inh Champs accolade_fermante #ast ;", e });
-}
-  }
-private void action_auto_inh_53(T_Bloc x_3, S_Champs_Bloc x_6) throws Exception {
-try {
-// instructions
-x_6.att_factory=this.att_factory;
-x_6.att_tds=this.att_tds;
-}catch(RuntimeException e) {	   att_scanner._interrompre(IProblem.Internal,att_scanner.getBeginLine(),ICoreMessages.id_EGG_runtime_error, CoreMessages.EGG_runtime_error,new Object[] { "Bloc", "#auto_inh","Type -> enregistrement identificateur_type accolade_ouvrante #inh Champs accolade_fermante #ast ;", e });
-}
+if  (att_eval)	  action_ast_68(x_3, x_6);
   }
 private void action_ast_5(T_Bloc x_2) throws Exception {
 try {
@@ -136,6 +114,20 @@ att_scanner._interrompre(IProblem.Semantic, att_scanner.getBeginLine(), IBlocMes
 }catch(RuntimeException e) {	   att_scanner._interrompre(IProblem.Internal,att_scanner.getBeginLine(),ICoreMessages.id_EGG_runtime_error, CoreMessages.EGG_runtime_error,new Object[] { "Bloc", "#ast","Type -> identificateur_type #ast ;", e });
 }
   }
+private void action_inh_68(T_Bloc x_3, S_Champs_Bloc x_6) throws Exception {
+try {
+// instructions
+if ((this.att_tds.contains(x_3.att_txt))){
+att_scanner._interrompre(IProblem.Semantic, att_scanner.getBeginLine(), IBlocMessages.id_Bloc_already_defined, BlocMessages.Bloc_already_defined,new Object[]{""+x_3.att_txt});
+
+}
+else {
+glob_68_t=this.att_factory.createRecordType(x_3.att_txt);
+this.att_tds.register(glob_68_t);
+}
+}catch(RuntimeException e) {	   att_scanner._interrompre(IProblem.Internal,att_scanner.getBeginLine(),ICoreMessages.id_EGG_runtime_error, CoreMessages.EGG_runtime_error,new Object[] { "Bloc", "#inh","Type -> enregistrement identificateur_type accolade_ouvrante #inh Champs accolade_fermante #ast ;", e });
+}
+  }
 private void action_auto_inh_4(S_Type_Bloc x_3, S_Type_Bloc x_5) throws Exception {
 try {
 // instructions
@@ -144,6 +136,14 @@ x_5.att_factory=this.att_factory;
 x_3.att_tds=this.att_tds;
 x_5.att_tds=this.att_tds;
 }catch(RuntimeException e) {	   att_scanner._interrompre(IProblem.Internal,att_scanner.getBeginLine(),ICoreMessages.id_EGG_runtime_error, CoreMessages.EGG_runtime_error,new Object[] { "Bloc", "#auto_inh","Type -> inferieur Type1 virgule Type2 superieur #ast ;", e });
+}
+  }
+private void action_auto_inh_68(T_Bloc x_3, S_Champs_Bloc x_6) throws Exception {
+try {
+// instructions
+x_6.att_factory=this.att_factory;
+x_6.att_tds=this.att_tds;
+}catch(RuntimeException e) {	   att_scanner._interrompre(IProblem.Internal,att_scanner.getBeginLine(),ICoreMessages.id_EGG_runtime_error, CoreMessages.EGG_runtime_error,new Object[] { "Bloc", "#auto_inh","Type -> enregistrement identificateur_type accolade_ouvrante #inh Champs accolade_fermante #ast ;", e });
 }
   }
 private void action_ast_2() throws Exception {
@@ -167,11 +167,11 @@ this.att_ast=this.att_factory.createCoupleType(x_3.att_ast, x_5.att_ast);
 }catch(RuntimeException e) {	   att_scanner._interrompre(IProblem.Internal,att_scanner.getBeginLine(),ICoreMessages.id_EGG_runtime_error, CoreMessages.EGG_runtime_error,new Object[] { "Bloc", "#ast","Type -> inferieur Type1 virgule Type2 superieur #ast ;", e });
 }
   }
-private void action_ast_53(T_Bloc x_3, S_Champs_Bloc x_6) throws Exception {
+private void action_ast_68(T_Bloc x_3, S_Champs_Bloc x_6) throws Exception {
 try {
 // instructions
-glob_53_t.addAll(x_6.att_champs);
-this.att_ast=glob_53_t;
+glob_68_t.addAll(x_6.att_champs);
+this.att_ast=glob_68_t;
 }catch(RuntimeException e) {	   att_scanner._interrompre(IProblem.Internal,att_scanner.getBeginLine(),ICoreMessages.id_EGG_runtime_error, CoreMessages.EGG_runtime_error,new Object[] { "Bloc", "#ast","Type -> enregistrement identificateur_type accolade_ouvrante #inh Champs accolade_fermante #ast ;", e });
 }
   }
@@ -191,7 +191,7 @@ this.att_ast=glob_53_t;
         regle5 () ;
       break ;
       case LEX_Bloc.token_enregistrement : // 65
-        regle53 () ;
+        regle68 () ;
       break ;
       default :
         	   scanner._interrompre(IProblem.Syntax, scanner.getBeginLine(), IBlocMessages.id_Bloc_unexpected_token,BlocMessages.Bloc_unexpected_token,new String[]{scanner.fenetre[0].getNom()});

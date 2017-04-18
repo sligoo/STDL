@@ -23,41 +23,24 @@ int [] sync= new int[0];
   boolean att_eval;
   LinkedList<FieldDeclaration> att_champs;
   LEX_Bloc att_scanner;
-  private void regle54() throws Exception {
+  private void regle69() throws Exception {
 
 	//declaration
 	S_Champ_Bloc x_2 = new S_Champ_Bloc(scanner,att_eval) ;
 	S_Champs_Bloc x_3 = new S_Champs_Bloc(scanner,att_eval) ;
 	//appel
-if  (att_eval)	  action_auto_inh_54(x_2, x_3);
+if  (att_eval)	  action_auto_inh_69(x_2, x_3);
 	x_2.analyser() ;
 	x_3.analyser() ;
-if  (att_eval)	  action_champs_54(x_2, x_3);
+if  (att_eval)	  action_champs_69(x_2, x_3);
   }
-  private void regle55() throws Exception {
+  private void regle70() throws Exception {
 
 	//declaration
 	//appel
-if  (att_eval)	  action_champs_55();
+if  (att_eval)	  action_champs_70();
   }
-private void action_auto_inh_54(S_Champ_Bloc x_2, S_Champs_Bloc x_3) throws Exception {
-try {
-// instructions
-x_2.att_factory=this.att_factory;
-x_3.att_factory=this.att_factory;
-x_2.att_tds=this.att_tds;
-x_3.att_tds=this.att_tds;
-}catch(RuntimeException e) {	   att_scanner._interrompre(IProblem.Internal,att_scanner.getBeginLine(),ICoreMessages.id_EGG_runtime_error, CoreMessages.EGG_runtime_error,new Object[] { "Bloc", "#auto_inh","Champs -> Champ Champs1 #champs ;", e });
-}
-  }
-private void action_champs_55() throws Exception {
-try {
-// instructions
-this.att_champs= new LinkedList<FieldDeclaration>();
-}catch(RuntimeException e) {	   att_scanner._interrompre(IProblem.Internal,att_scanner.getBeginLine(),ICoreMessages.id_EGG_runtime_error, CoreMessages.EGG_runtime_error,new Object[] { "Bloc", "#champs","Champs -> #champs ;", e });
-}
-  }
-private void action_champs_54(S_Champ_Bloc x_2, S_Champs_Bloc x_3) throws Exception {
+private void action_champs_69(S_Champ_Bloc x_2, S_Champs_Bloc x_3) throws Exception {
 try {
 // locales
 LinkedList<FieldDeclaration> loc_champs;
@@ -68,26 +51,43 @@ this.att_champs=loc_champs;
 }catch(RuntimeException e) {	   att_scanner._interrompre(IProblem.Internal,att_scanner.getBeginLine(),ICoreMessages.id_EGG_runtime_error, CoreMessages.EGG_runtime_error,new Object[] { "Bloc", "#champs","Champs -> Champ Champs1 #champs ;", e });
 }
   }
+private void action_auto_inh_69(S_Champ_Bloc x_2, S_Champs_Bloc x_3) throws Exception {
+try {
+// instructions
+x_2.att_factory=this.att_factory;
+x_3.att_factory=this.att_factory;
+x_2.att_tds=this.att_tds;
+x_3.att_tds=this.att_tds;
+}catch(RuntimeException e) {	   att_scanner._interrompre(IProblem.Internal,att_scanner.getBeginLine(),ICoreMessages.id_EGG_runtime_error, CoreMessages.EGG_runtime_error,new Object[] { "Bloc", "#auto_inh","Champs -> Champ Champs1 #champs ;", e });
+}
+  }
+private void action_champs_70() throws Exception {
+try {
+// instructions
+this.att_champs= new LinkedList<FieldDeclaration>();
+}catch(RuntimeException e) {	   att_scanner._interrompre(IProblem.Internal,att_scanner.getBeginLine(),ICoreMessages.id_EGG_runtime_error, CoreMessages.EGG_runtime_error,new Object[] { "Bloc", "#champs","Champs -> #champs ;", e });
+}
+  }
   public void analyser () throws Exception {
     scanner.lit ( 1 ) ;
     switch ( scanner.fenetre[0].code ) {
       case LEX_Bloc.token_type_bool : // 63
-        regle54 () ;
+        regle69 () ;
       break ;
       case LEX_Bloc.token_type_int : // 62
-        regle54 () ;
+        regle69 () ;
       break ;
       case LEX_Bloc.token_inferieur : // 36
-        regle54 () ;
+        regle69 () ;
       break ;
       case LEX_Bloc.token_identificateur_type : // 71
-        regle54 () ;
+        regle69 () ;
       break ;
       case LEX_Bloc.token_enregistrement : // 65
-        regle54 () ;
+        regle69 () ;
       break ;
       case LEX_Bloc.token_accolade_fermante : // 31
-        regle55 () ;
+        regle70 () ;
       break ;
       default :
         	   scanner._interrompre(IProblem.Syntax, scanner.getBeginLine(), IBlocMessages.id_Bloc_unexpected_token,BlocMessages.Bloc_unexpected_token,new String[]{scanner.fenetre[0].getNom()});
