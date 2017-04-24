@@ -60,7 +60,7 @@ public class ConstantDeclarationImpl implements ConstantDeclaration {
 	 */
 	@Override
 	public int allocateMemory(Register _register, int _offset) {
-		throw new SemanticsUndefinedException( "allocateMemory is undefined in ConstantDeclarationImpl.");
+		return 0;
 	}
 
 	/* (non-Javadoc)
@@ -68,7 +68,8 @@ public class ConstantDeclarationImpl implements ConstantDeclaration {
 	 */
 	@Override
 	public Fragment getCode(TAMFactory _factory) {
-		throw new SemanticsUndefinedException( "getCode is undefined in ConstantDeclarationImpl.");
+        return _factory.createFragment();
+
 	}
 
 }

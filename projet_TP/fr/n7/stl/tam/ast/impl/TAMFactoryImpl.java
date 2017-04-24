@@ -1,12 +1,15 @@
+/**
+ * 
+ */
 package fr.n7.stl.tam.ast.impl;
+
+import java.util.List;
+import java.util.Optional;
 
 import fr.n7.stl.tam.ast.Fragment;
 import fr.n7.stl.tam.ast.Register;
 import fr.n7.stl.tam.ast.TAMFactory;
 import fr.n7.stl.tam.ast.TAMInstruction;
-
-import java.util.List;
-import java.util.Optional;
 
 /**
  * Implementation of the factory to build a TAM program AST.
@@ -176,7 +179,7 @@ public class TAMFactoryImpl implements TAMFactory {
 				Optional.empty(),
 				Optional.empty(), 				
 				Optional.empty(), 
-				Optional.of(_label + ":"),
+				Optional.of(_label),
 				Optional.empty());
 	}
 
@@ -204,7 +207,7 @@ public class TAMFactoryImpl implements TAMFactory {
 				Optional.empty(),
 				Optional.empty(), 
 				Optional.empty(), 
-				Optional.of(_label + ":"),
+				Optional.of(_label),
 				Optional.of(_value));
 	}
 

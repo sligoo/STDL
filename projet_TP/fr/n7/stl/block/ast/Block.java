@@ -1,7 +1,5 @@
 package fr.n7.stl.block.ast;
 
-import java.util.Iterator;
-
 import fr.n7.stl.tam.ast.Fragment;
 import fr.n7.stl.tam.ast.Register;
 import fr.n7.stl.tam.ast.TAMFactory;
@@ -15,10 +13,8 @@ import fr.n7.stl.tam.ast.TAMFactory;
  * @author Marc Pantel
  *
  */
-public interface Block { 
-	// <REMOVE>
-	// extends HierarchicalScope<Declaration> {
-	// </REMOVE>
+public interface Block
+	extends HierarchicalScope<Declaration> {
 	
 	/**
 	 * Add an instruction at then end of a block.

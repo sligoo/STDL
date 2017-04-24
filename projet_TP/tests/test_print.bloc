@@ -1,0 +1,4 @@
+test_print {
+   < int, int > c = {5,6};
+   print(c);
+}

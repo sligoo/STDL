@@ -4,6 +4,7 @@ import fr.n7.stl.block.ast.Expression;
 import fr.n7.stl.block.ast.Type;
 import fr.n7.stl.block.ast.VariableDeclaration;
 import fr.n7.stl.tam.ast.Fragment;
+import fr.n7.stl.tam.ast.Library;
 import fr.n7.stl.tam.ast.Register;
 import fr.n7.stl.tam.ast.TAMFactory;
 
@@ -89,7 +90,25 @@ public class VariableDeclarationImpl implements VariableDeclaration {
 
 	@Override
 	public Fragment getCode(TAMFactory _factory) {
-		return this.value.getCode(_factory);
+		Fragment fragment = _factory.createFragment();
+
+		if (this.type instanceof ArrayTypeImpl && this.value instanceof SequenceImpl) {
+			fragment.add(_factory.createLoadL(this.value.getType().length()));
+			fragment.add(Library.MAlloc);
+		}
+
+		fragment.append(this.value.getCode(_factory));
+
+		if (this.type instanceof ArrayTypeImpl && this.value instanceof SequenceImpl) {
+			fragment.add(_factory.createLoad(this.getRegister(), this.getOffset(), 1));
+			fragment.add(_factory.createStoreI(this.value.getType().length()));
+		}
+
+		fragment.addComment("Declaration de la variable " + this.name + " de type " +
+				this.type + " à la valeur " + this.value);
+
+		return fragment;
 	}
+
 
 }

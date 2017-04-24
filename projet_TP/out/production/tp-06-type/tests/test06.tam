@@ -1,0 +1,35 @@
+;@{y2}
+LOAD (1) 0[SB]
+LOADA 3[SB]
+STOREI (1)
+;@{x1}
+LOAD (1) 1[SB]
+LOADA 4[SB]
+STOREI (1)
+;Access au field 0 de ext2
+;Access au field 0 de y
+;Declaration de la variable y2 de type int à la valeur @{s}.ext2.y
+LOAD (4) 2[SB]
+POP (0) 0
+POP (2) 2
+POP (0) 0
+POP (1) 1
+;Access au field 2 de ext1
+;Access au field 1 de x
+;Declaration de la variable x1 de type int à la valeur @{s}.ext1.x
+LOAD (4) 2[SB]
+POP (0) 2
+POP (2) 0
+POP (0) 1
+POP (1) 0
+;Declaration de la sequence
+;Declaration de la sequence
+;Declaration de la variable s de type struct Segmenti { struct Pointi { int x; int y;} ext1; struct Pointi { int x; int y;} ext2;} à la valeur { { 0 ,1 } ,{ 2 ,3 } }
+LOADL 0
+LOADL 1
+;Declaration de la sequence
+LOADL 2
+LOADL 3
+POP (0) 6
+HALT
+

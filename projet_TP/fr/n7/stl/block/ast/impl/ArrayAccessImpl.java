@@ -4,6 +4,7 @@ import fr.n7.stl.block.ast.AtomicType;
 import fr.n7.stl.block.ast.Expression;
 import fr.n7.stl.block.ast.Type;
 import fr.n7.stl.tam.ast.Fragment;
+import fr.n7.stl.tam.ast.Library;
 import fr.n7.stl.tam.ast.TAMFactory;
 import fr.n7.stl.block.ast.ArrayType;
 
@@ -15,7 +16,7 @@ import fr.n7.stl.block.ast.ArrayType;
 public class ArrayAccessImpl implements Expression {
 
 	protected Expression array;
-	private Expression index;
+	protected Expression index;
 
 	public ArrayAccessImpl(Expression _array, Expression _index) {
 		this.array = _array;
@@ -43,7 +44,16 @@ public class ArrayAccessImpl implements Expression {
 	 */
 	@Override
 	public Fragment getCode(TAMFactory _factory) {
-		throw new SemanticsUndefinedException( "getCode is undefined in ArrayAccessImpl.");
+		Fragment fragment = _factory.createFragment();
+
+		fragment.append(this.array.getCode(_factory));
+		fragment.append(this.index.getCode(_factory));
+		fragment.add(_factory.createLoadL(this.getType().length()));
+		fragment.add(Library.IMul);
+		fragment.add(Library.IAdd);
+		fragment.add(_factory.createLoadI(this.getType().length()));
+
+		return fragment;
 	}
 
 }

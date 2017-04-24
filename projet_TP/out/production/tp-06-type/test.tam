@@ -1,0 +1,47 @@
+;6
+LOADL 6
+LOADA 1[SB]
+STOREI (1)
+;((@{i} + (2 * 3)) + (@{s}.n * @{s}.m))
+LOAD (1) 2[SB]
+LOADL 2
+LOADL 3
+SUBR IMul
+SUBR IAdd
+;Access au field 1 de n
+LOAD (2) 0[SB]
+POP (0) 1
+POP (1) 0
+;Access au field 0 de m
+LOAD (2) 0[SB]
+POP (0) 0
+POP (1) 1
+SUBR IMul
+SUBR IAdd
+LOADA 2[SB]
+STOREI (1)
+;Access au field 1 de n
+;@{s}.n
+LOAD (2) 0[SB]
+POP (0) 1
+POP (1) 0
+LOADA 2[SB]
+STOREI (1)
+;Declaration de la sequence
+;Declaration de la variable s de type struct T { int n; int m;} à la valeur { 4 ,5 }
+LOADL 4
+LOADL 5
+;Declaration de la variable i de type int à la valeur (- 1)
+LOADL 1
+SUBR INeg
+;Declaration de la variable l de type int à la valeur @{k}
+LOAD (1) 4[SB]
+;Declaration de la variable k de type int à la valeur 1
+LOADL 1
+;Declaration de la variable v2 de type int à la valeur @{v1}
+LOAD (1) 6[SB]
+;Declaration de la variable v1 de type int à la valeur true
+LOADL 1
+POP (0) 7
+HALT
+

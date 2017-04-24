@@ -17,6 +17,7 @@ public class AssignmentImpl implements Instruction {
 	private VariableDeclaration declaration;
 	private Expression value;
 	private Expression assignable;
+	private String name;
 
 	/**
 	 * Create an assignment instruction implementation from the assigned variable declaration
@@ -37,6 +38,11 @@ public class AssignmentImpl implements Instruction {
 	 */
 	public AssignmentImpl(Expression _assignable, Expression _value) {
 		this.assignable = _assignable;
+		this.value = _value;
+	}
+
+	public AssignmentImpl(String _name, Expression _value) {
+		this.name = _name;
 		this.value = _value;
 	}
 
@@ -64,7 +70,7 @@ public class AssignmentImpl implements Instruction {
 	 */
 	@Override
 	public int allocateMemory(Register _register, int _offset) {
-		throw new SemanticsUndefinedException( "allocateMemory is undefined in AssignmentImpl.");
+		return 0;
 	}
 
 	/* (non-Javadoc)
@@ -72,7 +78,19 @@ public class AssignmentImpl implements Instruction {
 	 */
 	@Override
 	public Fragment getCode(TAMFactory _factory) {
-		throw new SemanticsUndefinedException( "getCode is undefined in AssignmentImpl.");
+		Fragment fragment = _factory.createFragment();
+
+		fragment.append(value.getCode(_factory));
+
+		if (this.declaration != null) {
+			fragment.append(declaration.getCode(_factory));
+		}
+		else {
+			fragment.append(assignable.getCode(_factory));
+			fragment.add(_factory.createStoreI(this.value.getType().length()));
+		}
+		fragment.addComment(this.value.toString());
+		return fragment;
 	}
 
 }

@@ -1,0 +1,23 @@
+;Declaration de la sequence
+;Declaration de la variable cp de type < int, < int, int>> à la valeur { 40 ,@{cm} }
+LOADL 40
+LOAD (2) 3[SB]
+;Declaration de la sequence
+;Declaration de la variable cm de type < int, int> à la valeur { 41 ,@{i} }
+LOADL 41
+LOAD (1) 5[SB]
+;Declaration de la variable i de type int à la valeur 42
+LOADL 42
+LOAD (2) 6[SB]
+POP (1) 1
+SUBR IOut
+LOAD (2) 6[SB]
+POP (0) 1
+SUBR IOut
+;Declaration de la sequence
+;Declaration de la variable c de type < int, int> à la valeur { 2 ,3 }
+LOADL 2
+LOADL 3
+POP (0) 8
+HALT
+

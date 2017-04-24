@@ -57,7 +57,9 @@ public class ConditionalImpl implements Instruction {
 	 */
 	@Override
 	public int allocateMemory(Register _register, int _offset) {
-		throw new SemanticsUndefinedException( "allocateMemory is undefined in ConditionalImpl.");
+		this.thenBranch.allocateMemory(_register,_offset);
+		elseBranch.ifPresent(block -> block.allocateMemory(_register, _offset));
+		return 0;
 	}
 
 	/* (non-Javadoc)
@@ -65,7 +67,18 @@ public class ConditionalImpl implements Instruction {
 	 */
 	@Override
 	public Fragment getCode(TAMFactory _factory) {
-		throw new SemanticsUndefinedException( "getCode is undefined in ConditionalImpl.");
+		Fragment fragment = _factory.createFragment();
+		int id = _factory.createLabelNumber();
+
+		fragment.append(condition.getCode(_factory));
+		fragment.add(_factory.createJumpIf("else" + id, 0));
+		fragment.append(this.thenBranch.getCode(_factory));
+		fragment.add(_factory.createJump("end_cond" + id));
+		fragment.addSuffix("else" + id);
+		elseBranch.ifPresent(block -> fragment.append(block.getCode(_factory)));
+		fragment.addSuffix("end_cond"+id);
+
+		return fragment;
 	}
 
 }

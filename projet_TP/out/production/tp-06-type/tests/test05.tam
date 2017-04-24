@@ -1,0 +1,66 @@
+LOAD (1) 0[SB]
+SUBR IOut
+LOAD (1) 0[SB]
+LOADL 0
+SUBR IEq
+JUMPIF (0) else1
+;@{b}
+LOAD (1) 1[SB]
+LOADA 0[SB]
+STOREI (1)
+POP (0) 0
+JUMP end_cond1
+else1
+POP (0) 0
+end_cond1
+;Declaration de la variable res de type int à la valeur @{a}
+LOAD (1) 2[SB]
+while_cond2
+start_while2
+LOAD (1) 2[SB]
+LOAD (1) 1[SB]
+SUBR IMul
+LOADL 0
+SUBR INeq
+JUMPIF (0) end_while2
+LOAD (1) 2[SB]
+LOAD (1) 1[SB]
+SUBR IGtr
+JUMPIF (0) else3
+;@{na}
+LOAD (1) 1[SB]
+LOADA 2[SB]
+STOREI (1)
+;Declaration de la variable na de type int à la valeur (@{a} - @{b})
+LOAD (1) 2[SB]
+LOAD (1) 1[SB]
+SUBR ISub
+POP (0) 2
+JUMP end_cond3
+else3
+;@{nb}
+LOAD (1) 1[SB]
+LOADA 1[SB]
+STOREI (1)
+;Declaration de la variable nb de type int à la valeur (@{b} - @{a})
+LOAD (1) 1[SB]
+LOAD (1) 2[SB]
+SUBR ISub
+POP (0) 2
+end_cond3
+POP (0) 1
+JUMP start_while2
+end_while2
+;Declaration de la variable b de type int à la valeur (snd @{c})
+LOAD (2) 3[SB]
+POP (1) 1
+;Declaration de la variable a de type int à la valeur (fst @{c})
+LOAD (2) 3[SB]
+POP (0) 1
+;Declaration de la sequence
+;Declaration de la variable c de type < int, int> à la valeur { 47 ,53 }
+LOADL 47
+LOADL 53
+POP (0) 5
+HALT
+

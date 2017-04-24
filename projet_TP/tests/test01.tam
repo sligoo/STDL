@@ -1,0 +1,9 @@
+;Declaration de la sequence
+;Declaration de la variable p de type < int, int> à la valeur { @{i} ,2 }
+LOAD (1) 2[SB]
+LOADL 2
+;Declaration de la variable i de type int à la valeur 1
+LOADL 1
+POP (0) 3
+HALT
+

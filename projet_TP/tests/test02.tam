@@ -1,0 +1,26 @@
+;4
+LOADL 4
+LOADA 0[SB]
+LOADI (1)
+LOADL 3
+LOADL 1
+SUBR IMul
+SUBR IAdd
+STOREI (1)
+;Declaration de la variable t de type int[] à la valeur fr.n7.stl.block.ast.impl.ArrayAllocationImpl@2b193f2d
+LOADL 5
+LOADL 1
+SUBR IMul
+SUBR MAlloc
+;2
+LOADL 2
+LOADA 1[SB]
+LOADI (1)
+STOREI (1)
+;Declaration de la variable ptr de type (int *) à la valeur &(@{v})
+LOADA 2[SB]
+;Declaration de la variable v de type int à la valeur 1
+LOADL 1
+POP (0) 3
+HALT
+

@@ -1,0 +1,30 @@
+;Acces au pointeur 
+LOAD (1) 0[SB]
+LOADI (1)
+SUBR IOut
+;4
+LOADL 4
+LOADA 0[SB]
+LOADI (1)
+STOREI (1)
+;Declaration de la variable p de type (int *) à la valeur fr.n7.stl.block.ast.impl.PointerAllocationImpl@2b193f2d
+LOADL 1
+SUBR MAlloc
+;Acces au pointeur 
+LOAD (1) 1[SB]
+LOADI (1)
+SUBR IOut
+;2
+LOADL 2
+LOADA 1[SB]
+LOADI (1)
+STOREI (1)
+LOAD (1) 1[SB]
+SUBR IOut
+;Declaration de la variable ptr de type (int *) à la valeur &(@{v})
+LOADA 2[SB]
+;Declaration de la variable v de type int à la valeur 42
+LOADL 42
+POP (0) 3
+HALT
+

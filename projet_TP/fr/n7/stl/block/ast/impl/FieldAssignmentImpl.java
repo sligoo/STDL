@@ -33,7 +33,23 @@ public class FieldAssignmentImpl extends FieldAccessImpl implements Assignable {
 	 */
 	@Override
 	public Fragment getCode(TAMFactory _factory) {
-		throw new SemanticsUndefinedException("Semantics getCode undefined in FieldAssignmentImpl.");
+		Fragment fragment = _factory.createFragment();
+
+		Expression expression = this;
+		int offset = 0;
+
+		while (expression instanceof FieldAssignmentImpl){
+			offset += ((FieldAssignmentImpl) expression).record.getType().length() -
+					expression.getType().length() - ((FieldAssignmentImpl) expression).getPosition();
+			expression = ((FieldAssignmentImpl) expression).record;
+		}
+
+		offset+=((VariableAssignmentImpl) expression).declaration.getOffset();
+		fragment.add(_factory.createLoadA(((VariableAssignmentImpl) expression)
+				.declaration.getRegister(), offset ));
+
+
+		return fragment;
 	}
 	
 }

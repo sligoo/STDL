@@ -1,0 +1,28 @@
+;Access au field 1 de n
+LOAD (2) 0[SB]
+POP (0) 1
+POP (1) 0
+SUBR IOut
+;6
+LOADL 6
+LOADA 0[SB]
+STOREI (1)
+LOAD (1) 2[SB]
+SUBR IOut
+;Access au field 0 de m
+;@{s}.m
+LOAD (2) 0[SB]
+POP (0) 0
+POP (1) 1
+LOADA 2[SB]
+STOREI (1)
+;Declaration de la sequence
+;Declaration de la variable s de type struct T { int n; int m;} à la valeur { 4 ,5 }
+LOADL 4
+LOADL 5
+;Declaration de la variable i de type int à la valeur (- 1)
+LOADL 1
+SUBR INeg
+POP (0) 3
+HALT
+

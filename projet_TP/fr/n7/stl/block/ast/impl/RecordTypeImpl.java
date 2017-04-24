@@ -1,21 +1,12 @@
 package fr.n7.stl.block.ast.impl;
 
-import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Optional;
-
-import fr.n7.stl.block.ast.FieldDeclaration;
-import fr.n7.stl.block.ast.ForbiddenDeclarationException;
-import fr.n7.stl.block.ast.RecordType;
-import fr.n7.stl.block.ast.AtomicType;
-import fr.n7.stl.block.ast.Scope;
-import fr.n7.stl.block.ast.Type;
-import fr.n7.stl.block.ast.TypeDeclaration;
+import fr.n7.stl.block.ast.*;
 import fr.n7.stl.tam.ast.Fragment;
 import fr.n7.stl.tam.ast.Register;
 import fr.n7.stl.tam.ast.TAMFactory;
 import fr.n7.stl.tam.ast.impl.FragmentImpl;
+
+import java.util.*;
 
 /**
  * Implementation of the Abstract Syntax Tree node for a record type.
@@ -67,7 +58,15 @@ public class RecordTypeImpl implements RecordType, Scope<FieldDeclaration> {
 			this.fields.add(_field);
 		}
 	}
-	
+
+	/* (non-Javadoc)
+	 * @see fr.n7.stl.block.ast.Scope#get(java.lang.String)
+	 */
+	@Override
+	public List<FieldDeclaration> getFields() {
+		return new ArrayList<>(this.fields);
+	}
+
 	/* (non-Javadoc)
 	 * @see fr.n7.stl.block.ast.Type#equalsTo(fr.n7.stl.block.ast.Type)
 	 */

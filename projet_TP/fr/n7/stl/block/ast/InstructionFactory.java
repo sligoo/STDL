@@ -82,10 +82,8 @@ public interface InstructionFactory {
 	 * @return An Assignment node in the Abstract Syntax Tree.
 	 */
     Instruction createAssignment(Expression _assignable, Expression _value);
-	
-	// <REMOVE>
-    // public Instruction createAssignment(String _name, Expression _value);
-	// </REMOVE>
+
+    Instruction createAssignment(String _name, Expression _value);
 	
 	/**
 	 * Create a conditional node in the Abstract Syntax Tree.

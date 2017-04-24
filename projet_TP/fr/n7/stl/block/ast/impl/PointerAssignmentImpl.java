@@ -6,7 +6,7 @@ import fr.n7.stl.tam.ast.Fragment;
 import fr.n7.stl.tam.ast.TAMFactory;
 
 /**
- * @author Marc Pantel
+ * @author Sacha Liguori
  *
  */
 public class PointerAssignmentImpl extends PointerAccessImpl implements Assignable {
@@ -23,7 +23,13 @@ public class PointerAssignmentImpl extends PointerAccessImpl implements Assignab
 	 */
 	@Override
 	public Fragment getCode(TAMFactory _factory) {
-		throw new SemanticsUndefinedException("Semantics getCode undefined in PointerAssignmentImpl.");
+		Fragment fragment = _factory.createFragment();
+
+		fragment.append(this.pointer.getCode(_factory));
+        fragment.add(_factory.createLoadI(this.getType().length()));
+
+
+		return fragment;
 	}
 	
 }

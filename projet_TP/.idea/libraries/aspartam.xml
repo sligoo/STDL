@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="aspartam">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/aspartam.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

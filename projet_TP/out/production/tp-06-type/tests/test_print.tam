@@ -1,0 +1,9 @@
+LOAD (2) 0[SB]
+SUBR IOut
+;Declaration de la sequence
+;Declaration de la variable c de type < int, int> à la valeur { 5 ,6 }
+LOADL 5
+LOADL 6
+POP (0) 2
+HALT
+

@@ -1,0 +1,9 @@
+LOAD (1) 0[SB]
+SUBR IOut
+;Declaration de la variable j de type int à la valeur @{i}
+LOAD (1) 1[SB]
+;Declaration de la variable i de type int à la valeur 42
+LOADL 42
+POP (0) 2
+HALT
+

@@ -1,0 +1,35 @@
+LOAD (1) 0[SB]
+LOADL 42
+SUBR IEq
+JUMPIF (0) else1
+LOADL 1
+SUBR IOut
+POP (0) 0
+JUMP end_cond1
+else1
+LOADL 2
+SUBR IOut
+POP (0) 0
+end_cond1
+;3
+LOADL 3
+LOADA 0[SB]
+STOREI (1)
+LOAD (1) 0[SB]
+LOADL 42
+SUBR IEq
+JUMPIF (0) else2
+LOADL 1
+SUBR IOut
+POP (0) 0
+JUMP end_cond2
+else2
+LOADL 2
+SUBR IOut
+POP (0) 0
+end_cond2
+;Declaration de la variable i de type int à la valeur 42
+LOADL 42
+POP (0) 1
+HALT
+

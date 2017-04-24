@@ -187,6 +187,14 @@ public class BlockFactoryImpl implements BlockFactory {
 	}
 
 	/* (non-Javadoc)
+	 * @see fr.n7.stl.block.ast.InstructionFactory#createAssignment(java.lang.String, fr.n7.stl.block.ast.Expression)
+	 */
+	public Instruction createAssignment(String _name, Expression _value) {
+		return new AssignmentImpl(_name,_value);
+	}
+
+
+	/* (non-Javadoc)
 	 * @see fr.n7.stl.block.ast.ExpressionFactory#createBooleanValue(boolean)
 	 */
 	@Override
@@ -280,15 +288,7 @@ public class BlockFactoryImpl implements BlockFactory {
 		return _local;
 	}
 
-	// <REMOVE>
-	/* (non-Javadoc)
-	 * @see fr.n7.stl.block.ast.InstructionFactory#createAssignment(java.lang.String, fr.n7.stl.block.ast.Expression)
-	 */
-//	@Override
-//	public Instruction createAssignment(String _name, Expression _value) {
-//		return new AssignmentImpl(_name,_value);
-//	}
-	// </REMOVE>
+
 
 	/* (non-Javadoc)
 	 * @see fr.n7.stl.block.ast.InstructionFactory#createConditional(fr.n7.stl.block.ast.Expression, fr.n7.stl.block.ast.Block)
@@ -387,8 +387,8 @@ public class BlockFactoryImpl implements BlockFactory {
 	}
 
 	@Override
-	public Expression createArrayAllocation(Type att_type, Expression att_ast) {
-		return new ArrayAllocationImpl(att_type);
+	public Expression createArrayAllocation(Type att_type, Expression att_size) {
+		return new ArrayAllocationImpl(att_type, att_size);
 	}
 
 	@Override

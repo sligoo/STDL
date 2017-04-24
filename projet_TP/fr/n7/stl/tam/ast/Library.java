@@ -1,3 +1,6 @@
+/**
+ * 
+ */
 package fr.n7.stl.tam.ast;
 
 import java.util.LinkedList;
@@ -240,11 +243,11 @@ public enum Library implements TAMInstruction {
 			_result.append(";").append(_comment).append("\n");
 		}
 		for (String _label : this.prefixes) {
-			_result.append(_label).append(":\n");
+			_result.append(_label).append("\n");
 		}
-		_result.append(" SUBR ").append(this.name()).append("\n");
+		_result.append("SUBR ").append(this.name()).append("\n");
 		for (String _label : this.suffixes) {
-			_result.append(_label).append(":\n");
+			_result.append(_label).append("\n");
 		}
 		return _result.toString();
 	}

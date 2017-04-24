@@ -81,9 +81,26 @@ public class UnaryExpressionImpl implements Expression {
 	 */
 	@Override
 	public Fragment getCode(TAMFactory _factory) {
-		Fragment _code = this.parameter.getCode(_factory);
-		_code.add(TAMFactory.createUnaryOperator(this.operator));
-		return _code;
+		Fragment fragment = this.parameter.getCode(_factory);
+		int first, second;
+		switch (this.operator) {
+			case Negate: case Opposite:
+				fragment.add(TAMFactory.createUnaryOperator(this.operator));
+				break;
+			case First:
+				second = ((CoupleType)this.parameter.getType()).getSecond().length();
+				fragment.add(_factory.createPop(0, second));
+				break;
+			case Second:
+				first = ((CoupleType)this.parameter.getType()).getFirst().length();
+				second = ((CoupleType)this.parameter.getType()).getSecond().length();
+				fragment.add(_factory.createPop(second, first));
+				break;
+			default:
+				throw new SemanticsUndefinedException("Unary operator " + this.operator +
+						" is not defined");
+		}
+		return fragment;
 	}
 
 }

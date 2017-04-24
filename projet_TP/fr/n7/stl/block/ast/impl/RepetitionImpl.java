@@ -46,7 +46,8 @@ public class RepetitionImpl implements Instruction {
 	 */
 	@Override
 	public int allocateMemory(Register _register, int _offset) {
-		throw new SemanticsUndefinedException("Semantics allocateMemory undefined in RepetitionImpl.");
+		this.body.allocateMemory(_register, _offset);
+		return 0;
 	}
 
 	/* (non-Javadoc)
@@ -54,7 +55,19 @@ public class RepetitionImpl implements Instruction {
 	 */
 	@Override
 	public Fragment getCode(TAMFactory _factory) {
-		throw new SemanticsUndefinedException("Semantics getCode undefined in RepetitionImpl.");
+		Fragment fragment = _factory.createFragment();
+		int id = _factory.createLabelNumber();
+
+		fragment.append(condition.getCode(_factory));
+		fragment.addPrefix("while_cond" + id);
+		fragment.add(_factory.createJumpIf("end_while" + id, 0));
+		fragment.append(this.body.getCode(_factory));
+		fragment.add(_factory.createJump("start_while" + id));
+
+		fragment.addPrefix("start_while" + id);
+		fragment.addSuffix("end_while" + id);
+
+		return fragment;
 	}
 
 }
